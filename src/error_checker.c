@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:07:36 by ncastell          #+#    #+#             */
-/*   Updated: 2023/09/04 13:29:39 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/06 13:19:19 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 int error_msj(int error)
 {
     if (error == 1)
-        ft_printf("Invaliud number of arguments\n");
+        printf("Invaliud number of arguments\n");
     if (error == 2)
-        ft_printf("Invalid number on argument %d\n", error - 1);
+        printf("Invalid number on argument %d\n", error - 1);
     return (-1);
 }
 
