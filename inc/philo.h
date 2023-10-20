@@ -24,10 +24,10 @@ typedef struct s_table t_table;
 
 typedef struct s_philo
 {
-    pthread_t       th_id;
-    int             id;
-    pthread_mutex_t left_f;
-    pthread_mutex_t *right_f;
+    pthread_t   th_id;
+    int     	id;
+    int     	left_f;
+    int			right_f;
     // int         num_eats;
     // int         dead;
     t_table     *table;
@@ -42,6 +42,7 @@ struct s_table
     int             p_amount;
     pthread_mutex_t *forks;
     pthread_mutex_t updt;
+	pthread_mutex_t	msj;
     t_philo         *philo;
 };
 
@@ -65,4 +66,6 @@ int	        ft_isdigit(int i);
 long int    ft_atol(const char *str);
 void	    *ft_calloc(size_t count, size_t size);
 
+/* Routine */
+void		ft_eat(t_philo *philo);
 #endif

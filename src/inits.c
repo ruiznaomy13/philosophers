@@ -24,7 +24,6 @@ int start_philos(t_table *table)
     {
         table->philo[i].table = table;
         table->philo[i].id = i + 1;
-        pthread_mutex_init(&table->philo[i].left_f, NULL);
     }
     return (0);
 }
@@ -40,20 +39,23 @@ int init(char **av, t_table *table)
     table->t_sleep = ft_atol(av[4]);
     if (av[5])
         table->rep_eat = ft_atol(av[5]);
-
+    pthread_mutex_init(&table->msj, NULL);
     // Inicializa el array de mutexes para los tenedores
     table->forks = (pthread_mutex_t *)malloc(sizeof(pthread_mutex_t) * table->p_amount);
     if (!table->forks)
         return (-1);
-
     start_philos(table);
-
-    // Asigna los mutexes de los tenedores a los filósofos
     for (i = 0; i < table->p_amount; i++) {
         // pthread_mutex_init(&table->philo[i].left_f, NULL);
         pthread_mutex_init(&table->forks[i], NULL); // Inicializa el tenedor actual
-        table->philo[i].right_f = &table->forks[(i + 1) % table->p_amount];  // Asigna el tenedor derecho
+        // table->philo[i].right_f = &table->forks[(i + 1) % table->p_amount];  // Asigna el tenedor derecho
     }
+    // Asigna los mutexes de los tenedores a los filósofos
+    // for (i = 0; i < table->p_amount; i++) {
+    //     // pthread_mutex_init(&table->philo[i].left_f, NULL);
+    //     pthread_mutex_init(&table->forks[i], NULL); // Inicializa el tenedor actual
+    //     table->philo[i].right_f = &table->forks[(i + 1) % table->p_amount];  // Asigna el tenedor derecho
+    // }
     return (0);
 }
 

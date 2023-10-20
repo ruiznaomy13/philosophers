@@ -21,39 +21,11 @@ int main(int ac, char **av)
     create_threads(&table);
 }
 
-void pickup_forks(t_philo *philo)
-{
-    pthread_mutex_lock(&philo->table->updt);
-
-    // Espera a que ambos tenedores estén disponibles
-    pthread_mutex_lock(&philo->table->forks[philo->id - 1]);
-    print_msj(philo, "has taken left fork");
-    // Filósofo espera a que el tenedor derecho esté disponible
-    while (pthread_mutex_trylock(&philo->table->forks[(philo->id) % philo->table->p_amount]) != 0)
-        pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
-    print_msj(philo, "has taken right fork");
-
-    pthread_mutex_unlock(&philo->table->updt);
-}
-
-void put_down_forks(t_philo *philo)
-{
-    pthread_mutex_lock(&philo->table->updt);
-
-    // Suelta el tenedor derecho
-    pthread_mutex_unlock(&philo->table->forks[(philo->id) % philo->table->p_amount]);
-    print_msj(philo, "has put down right fork");
-
-    // Suelta el tenedor izquierdo
-    pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
-    print_msj(philo, "has put down left fork");
-
-    pthread_mutex_unlock(&philo->table->updt);
-}
-
 void    print_msj(t_philo *philo, char *msj)
 {
+    pthread_mutex_lock(&philo->table->msj);
     printf("%d %s\n", philo->id, msj);
+    pthread_mutex_unlock(&philo->table->msj);
 }
 
 
@@ -62,21 +34,33 @@ void *ft_routine(void *arg)
     t_philo *philo = (t_philo *)arg;
 
     while (1) {
-        // print_msj(philo, "is thinking");
+        print_msj(philo, "is thinking");
         usleep(philo->table->t_eat);
 
-        pickup_forks(philo);
+        ft_eat(philo);
 
-        print_msj(philo, "is eating");
-        usleep(philo->table->t_eat);
-
-        put_down_forks(philo);
-
-        // print_msj(philo, "is sleeping");
+        print_msj(philo, "is sleeping");
         usleep(philo->table->t_sleep);
     }
 
     return NULL;
+}
+
+//mutex de los procesos de los tenedores
+void	ft_eat(t_philo *philo)
+{
+	pthread_mutex_lock(&philo->table->updt);
+    pthread_mutex_lock(&philo->table->forks[philo->id - 1]);
+    print_msj(philo, "has taken left fork");
+    while (pthread_mutex_trylock(&philo->table->forks[philo->id]) != 0)
+        pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
+    print_msj(philo, "has taken right fork");
+    print_msj(philo, "is eating");
+    pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
+    print_msj(philo, "has put down left fork");
+    pthread_mutex_unlock(&philo->table->forks[philo->id]);
+    print_msj(philo, "has put down right fork");
+    pthread_mutex_unlock(&philo->table->updt);
 }
 
 int create_threads(t_table *table)
