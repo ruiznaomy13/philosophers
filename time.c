@@ -1,40 +1,31 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <limits.h>
+#include <pthread.h>
 #include <sys/time.h>
-#include <time.h>
 
-#define NUM 1000000
-#define NUM2 900000000
-
-float time_diff(struct timeval *start, struct timeval *end)
-{
-    return (end->tv_sec - start->tv_sec) + 1e-6*(end->tv_usec - start->tv_usec);
+long get_time_in_milliseconds(void) {
+    struct timeval start;
+    gettimeofday(&start, NULL);
+    long milliseconds = (long)(start.tv_sec * 1000 + start.tv_usec / 1000);
+    return milliseconds;
 }
 
-void loopFunc(size_t num)
-{
-    int tmp = 0;
-    for (int i = 0; i < num; ++i) {
-        tmp += 1;
-    }
+long calculate_time_difference(long start_time, long end_time) {
+    return end_time - start_time;
 }
 
 int main() {
-    struct timeval start;
-    struct timeval end;
+	long	start_time;
+	long	end_time;
 
-    gettimeofday(&start, NULL);
-    loopFunc(NUM);
-    gettimeofday(&end, NULL);
+    start_time = get_time_in_milliseconds();
+	usleep(5000);
+    end_time = get_time_in_milliseconds();
 
-    printf("loopFunc(%d)  time spent: %0.8f sec\n",
-           NUM, time_diff(&start, &end));
-    gettimeofday(&start, NULL);
-    loopFunc(NUM2);
-    gettimeofday(&end, NULL);
+    long time_difference = calculate_time_difference(start_time, end_time);
+    printf("Diferencia de tiempo: %ld milisegundos\n", time_difference);
 
-    printf("loopFunc(%d) time spent: %0.8f sec\n",
-           NUM2, time_diff(&start, &end));
-
-    exit(EXIT_SUCCESS);
+    return 0;
 }

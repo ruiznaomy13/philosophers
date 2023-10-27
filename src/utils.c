@@ -6,11 +6,23 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 13:59:10 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/06 23:11:38 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/27 21:20:01 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "inc/philo.h"
+
+#include <sys/time.h>
+
+long get_time_in_milliseconds(void) {
+    struct timeval	start;
+	long 			milliseconds;
+
+    gettimeofday(&start, NULL);
+    milliseconds = (long)(start.tv_sec * 1000 + start.tv_usec / 1000);
+    return (milliseconds);
+}
+
 
 int	ft_isdigit(int i)
 {

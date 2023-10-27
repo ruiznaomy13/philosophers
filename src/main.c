@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 11:57:49 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/14 16:04:37 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/27 21:43:54 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ int main(int ac, char **av)
     if (arg_checker(ac, av) < 0)
         return (0);
     init(av, &table);
+	printf("p_amount: %d \n", table.p_amount);
     create_threads(&table);
 }
 
@@ -50,16 +51,19 @@ void *ft_routine(void *arg)
 void	ft_eat(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->table->updt);
+	
     pthread_mutex_lock(&philo->table->forks[philo->id - 1]);
     print_msj(philo, "has taken left fork");
-    while (pthread_mutex_trylock(&philo->table->forks[philo->id]) != 0)
-        pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
+	pthread_mutex_lock(&philo->table->forks[philo->id + 2]);
     print_msj(philo, "has taken right fork");
+
     print_msj(philo, "is eating");
+
     pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
     print_msj(philo, "has put down left fork");
-    pthread_mutex_unlock(&philo->table->forks[philo->id]);
+    pthread_mutex_unlock(&philo->table->forks[philo->id + 2]);
     print_msj(philo, "has put down right fork");
+	
     pthread_mutex_unlock(&philo->table->updt);
 }
 
@@ -71,7 +75,6 @@ int create_threads(t_table *table)
     // pthread_mutex_lock(&table->updt);
     while (++i < table->p_amount)
     {
-        table->philo[i].id = i + 1;
         if (pthread_create(&table->philo[i].th_id, NULL, ft_routine, &table->philo[i]) != 0)
             return (-1);
     }

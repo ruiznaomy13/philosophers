@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/14 15:52:50 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/27 21:44:28 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ struct s_table
     long int        t_sleep;
     int             rep_eat;
     int             p_amount;
+	long int		t_start;
     pthread_mutex_t *forks;
     pthread_mutex_t updt;
 	pthread_mutex_t	msj;
