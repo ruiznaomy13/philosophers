@@ -6,13 +6,11 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 13:59:10 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/27 21:20:01 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/28 20:34:48 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "inc/philo.h"
-
-#include <sys/time.h>
 
 long get_time_in_milliseconds(void) {
     struct timeval	start;
@@ -23,6 +21,10 @@ long get_time_in_milliseconds(void) {
     return (milliseconds);
 }
 
+long diff_time(long start_time, long end_time)
+{
+    return (end_time - start_time);
+}
 
 int	ft_isdigit(int i)
 {

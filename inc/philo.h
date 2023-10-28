@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/27 21:44:28 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/29 00:47:09 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ typedef struct s_philo
     int     	id;
     int     	left_f;
     int			right_f;
+	long int	last_eat;
     // int         num_eats;
     // int         dead;
     t_table     *table;
@@ -48,25 +49,28 @@ struct s_table
 };
 
 /* Threads */
-void        *ft_routine(void *arg);
-int         create_threads(t_table *table);
-void        print_msj(t_philo *philo, char *msj);
+void	*ft_routine(void *arg);
+int		create_threads(t_table *table);
+void	print_msj(t_philo *philo, char *msj);
 
 /* Checkers */
-int         error_msj(int error);
-int         arg_checker(int ac, char **av);
-int	        check_nums(char *s);
+int		error_msj(int error);
+int		arg_checker(int ac, char **av);
+int		check_nums(char *s);
 
 /* Inicializers */
-int         init(char **av, t_table *table);
-int         start_philos(t_table *table);
+int		init(char **av, t_table *table);
+int		start_philos(t_table *table);
 
 /* Utils */
-long int	get_time(void);
-int	        ft_isdigit(int i);
-long int    ft_atol(const char *str);
-void	    *ft_calloc(size_t count, size_t size);
+long	get_time(void);
+int		ft_isdigit(int i);
+long	ft_atol(const char *str);
+void	*ft_calloc(size_t count, size_t size);
+long	diff_time(long start_time, long end_time);
 
 /* Routine */
-void		ft_eat(t_philo *philo);
+void	ft_eat(t_philo *philo);
+void	ft_sleep(t_philo *philo);
+void	ft_think(t_philo *philo);
 #endif

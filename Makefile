@@ -3,7 +3,8 @@ HEADER		= inc/philo.h
 
 INCLUDE		= -I./
 SRCS_DIR 	= src
-SRCS 		= $(SRCS_DIR)/main.c $(SRCS_DIR)/inits.c $(SRCS_DIR)/error_checker.c $(SRCS_DIR)/utils.c
+SRCS 		= $(SRCS_DIR)/main.c $(SRCS_DIR)/inits.c $(SRCS_DIR)/error_checker.c $(SRCS_DIR)/utils.c \
+			$(SRCS_DIR)/threads.c $(SRCS_DIR)/routine.c
 # RUTAS		= lib/libft/libft.a lib/printf/libftprintf.a
 
 OBJ_DIR		= obj

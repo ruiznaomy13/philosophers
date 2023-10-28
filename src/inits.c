@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 22:27:29 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/27 21:44:50 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/29 00:32:51 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int start_philos(t_table *table)
     {
         table->philo[i].table = table;
         table->philo[i].id = i + 1;
+		table->philo[i].last_eat = table->t_start;
     }
     return (0);
 }
