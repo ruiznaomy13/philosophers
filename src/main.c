@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 11:57:49 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/29 00:50:45 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/29 02:03:44 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	*ft_routine(void *arg)
 	t_philo	*philo;
 
 	philo = (t_philo *)arg;
-	while (1)
+	while (!ft_dead(philo))
 	{
 		ft_think(philo);
 		ft_eat(philo);
