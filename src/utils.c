@@ -6,18 +6,18 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 13:59:10 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/30 22:20:43 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/31 18:38:09 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "inc/philo.h"
 
-void	ft_usleep(t_philo *philo, long time)
+void	ft_usleep(long time)
 {
 	long	t = get_time();
 	while (8)
 	{
-		usleep(1000);
+		usleep(100);
 		if ((get_time() - t) >= time)
 			break ;
 	}

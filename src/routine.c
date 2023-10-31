@@ -12,6 +12,18 @@
 
 #include "inc/philo.h"
 
+int	food_rep(t_philo *p)
+{
+	if (p->n_food == p->table->rep_eat)
+	{
+		pthread_mutex_lock(&p->table->end);
+		p->finish = 1;
+		pthread_mutex_unlock(&p->table->end);
+		return (1);
+	}
+	return (0);
+}
+
 void	ft_eat(t_philo *philo)
 {
 	if ((philo->id % 2) == 0)
@@ -25,7 +37,8 @@ void	ft_eat(t_philo *philo)
 
     print_msj(philo, "is eating");
 	philo->last_eat = get_time();
-	ft_usleep(philo, philo->table->t_eat)
+	ft_usleep(philo->table->t_eat);
+	philo->n_food++;
 	// usleep(philo->table->t_eat * 1000);
 
     pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
@@ -39,7 +52,7 @@ void	ft_eat(t_philo *philo)
 void	ft_sleep(t_philo *philo)
 {
 	print_msj(philo, "is sleeping");
-    usleep(philo->table->t_sleep);
+    ft_usleep(philo->table->t_sleep);
 }
 
 void	ft_think(t_philo *philo)
@@ -56,9 +69,9 @@ int	ft_dead(t_philo *philo, int i)
 	time = get_time() - philo->last_eat;
 	if (time > philo->table->t_die)
 	{
-		pthread_mutex_lock(&philo->table->waiter);
+		pthread_mutex_lock(&philo->table->cease);
 		philo->dead = 1;
-		pthread_mutex_unlock(&philo->table->waiter);
+		pthread_mutex_unlock(&philo->table->cease);
 		if (i == 1)
 			print_msj(philo, "died");
 		pthread_mutex_unlock(&philo->table->updt);

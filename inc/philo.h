@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/30 22:19:32 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/10/31 19:33:37 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ typedef struct s_philo
     int     	left_f;
     int			right_f;
 	long int	last_eat;
+	int			n_food;
+	int			finish;
     // int         num_eats;
     int         dead;
     t_table     *table;
@@ -45,7 +47,8 @@ struct s_table
     pthread_mutex_t *forks;
     pthread_mutex_t updt;
 	pthread_mutex_t	msj;
-	pthread_mutex_t	waiter;
+	pthread_mutex_t	cease;
+	pthread_mutex_t	end;
     t_philo         *philo;
 };
 
@@ -66,8 +69,8 @@ int		start_philos(t_table *table);
 /* Utils */
 long	get_time(void);
 int		ft_isdigit(int i);
+void	ft_usleep(long time);
 long	ft_atol(const char *str);
-void	ft_usleep(t_philo *philo, long time);
 void	*ft_calloc(size_t count, size_t size);
 long	diff_time(long start_time, long end_time);
 
@@ -75,5 +78,6 @@ long	diff_time(long start_time, long end_time);
 void	ft_eat(t_philo *philo);
 void	ft_sleep(t_philo *philo);
 void	ft_think(t_philo *philo);
+int		food_rep(t_philo *p);
 int		ft_dead(t_philo *philo, int i);
 #endif
