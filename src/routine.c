@@ -14,7 +14,7 @@
 
 int	food_rep(t_philo *p)
 {
-	if (p->n_food == p->table->rep_eat)
+	if (p->n_food == p->table->rep_eat && p->table->rep_eat)
 	{
 		pthread_mutex_lock(&p->table->end);
 		p->finish = 1;
@@ -31,49 +31,49 @@ void	ft_eat(t_philo *philo)
 	pthread_mutex_lock(&philo->table->updt);
 
     pthread_mutex_lock(&philo->table->forks[philo->id - 1]);
-    print_msj(philo, "has taken right fork");
+    print_msj(philo, BLUE"has taken right fork");
 	pthread_mutex_lock(&philo->table->forks[philo->id % philo->table->p_amount]);
-    print_msj(philo, "has taken left fork");
+    print_msj(philo, BLUE"has taken left fork");
 
-    print_msj(philo, "is eating");
+    print_msj(philo, YELLOW"is eating");
 	philo->last_eat = get_time();
 	ft_usleep(philo->table->t_eat);
 	philo->n_food++;
-	// usleep(philo->table->t_eat * 1000);
 
     pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
-    print_msj(philo, "has put down right fork");
+    print_msj(philo, CYAN"has put down right fork");
     pthread_mutex_unlock(&philo->table->forks[philo->id % philo->table->p_amount]);
-    print_msj(philo, "has put down left fork");
+    print_msj(philo, CYAN"has put down left fork");
 
     pthread_mutex_unlock(&philo->table->updt);
 }
 
 void	ft_sleep(t_philo *philo)
 {
-	print_msj(philo, "is sleeping");
+	print_msj(philo, MAGENTA"is sleeping");
     ft_usleep(philo->table->t_sleep);
 }
 
 void	ft_think(t_philo *philo)
 {
-	print_msj(philo, "is thinking");
+	print_msj(philo, GREEN"is thinking");
 	usleep(philo->table->t_eat);
 }
 
-int	ft_dead(t_philo *philo, int i)
+
+int	ft_dead(t_philo *philo)
 {
 	long int	time;
 	
 	pthread_mutex_lock(&philo->table->updt);
 	time = get_time() - philo->last_eat;
-	if (time > philo->table->t_die)
+	if (time > philo->table->t_die || philo->finish)
 	{
-		pthread_mutex_lock(&philo->table->cease);
+		pthread_mutex_lock(&philo->table->end);
 		philo->dead = 1;
-		pthread_mutex_unlock(&philo->table->cease);
-		if (i == 1)
-			print_msj(philo, "died");
+		pthread_mutex_unlock(&philo->table->end);
+		if (!philo->finish)
+			print_msj(philo, RED"died");
 		pthread_mutex_unlock(&philo->table->updt);
 		return (1);
 	}

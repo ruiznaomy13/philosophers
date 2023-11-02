@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/31 19:33:37 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/02 22:51:57 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,14 @@
 #include <limits.h>
 #include <pthread.h>
 #include <sys/time.h>
+
+# define RED		"\x1b[31m"
+# define GREEN		"\x1b[32m"
+# define YELLOW		"\x1b[33m"
+# define BLUE		"\x1b[34m"
+# define WHITE		"\033[0;37m"
+# define CYAN		"\x1b[36m"
+# define MAGENTA	"\033[95m"
 
 typedef struct s_table t_table;
 
@@ -43,11 +51,11 @@ struct s_table
     long int        t_sleep;
     int             rep_eat;
     int             p_amount;
+	int				stop;
 	long int		t_start;
     pthread_mutex_t *forks;
     pthread_mutex_t updt;
 	pthread_mutex_t	msj;
-	pthread_mutex_t	cease;
 	pthread_mutex_t	end;
     t_philo         *philo;
 };
@@ -79,5 +87,7 @@ void	ft_eat(t_philo *philo);
 void	ft_sleep(t_philo *philo);
 void	ft_think(t_philo *philo);
 int		food_rep(t_philo *p);
-int		ft_dead(t_philo *philo, int i);
+int		ft_dead(t_philo *philo);
+
+// int		ft_dead(t_philo *philo, int i);
 #endif

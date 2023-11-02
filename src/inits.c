@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 22:27:29 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/31 19:33:56 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/02 22:35:55 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ int start_philos(t_table *table)
 		table->philo[i].dead = 0;
 		table->philo[i].n_food = 0;
 		table->philo[i].finish = 0;
+		table->philo[i].dead = 0;
 		table->philo[i].last_eat = table->t_start;
     }
     return (0);
@@ -42,10 +43,11 @@ int init(char **av, t_table *table)
     table->t_eat = ft_atol(av[3]);
     table->t_sleep = ft_atol(av[4]);
 	table->t_start = 0;
+	table->rep_eat = 0;
     if (av[5])
         table->rep_eat = ft_atol(av[5]);
+	table->stop = 0;
 	table->t_start = get_time();
-	pthread_mutex_init(&table->cease, NULL);
     pthread_mutex_init(&table->msj, NULL);
     table->forks = (pthread_mutex_t *)malloc(sizeof(pthread_mutex_t) * table->p_amount);
     if (!table->forks)
