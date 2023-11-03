@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/02 22:51:57 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/03 20:47:51 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,7 @@ struct s_table
     pthread_mutex_t updt;
 	pthread_mutex_t	msj;
 	pthread_mutex_t	end;
+	pthread_mutex_t	check;
     t_philo         *philo;
 };
 

@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 11:57:49 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/02 22:52:00 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/03 20:56:13 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,10 @@ void	ft_free(t_table *table)
 	free(table->philo);
 	while (++i < table->p_amount)
 		pthread_mutex_destroy(&table->forks[i]);
+	pthread_mutex_destroy(&table->updt);
+	pthread_mutex_destroy(&table->msj);
+	pthread_mutex_destroy(&table->end);
+	pthread_mutex_destroy(&table->check);
 	free(table->forks);
 }
 
@@ -41,6 +45,13 @@ void	*ft_routine(void *arg)
 	philo = (t_philo *)arg;
 	while (!ft_dead(philo) && !food_rep(philo))
 	{
+		pthread_mutex_lock(&philo->table->check);
+		if (!philo->table->stop)
+		{
+			pthread_mutex_unlock(&philo->table->check);
+			return NULL;
+		}
+		pthread_mutex_unlock(&philo->table->check);
 		ft_eat(philo);
 		ft_think(philo);
 		ft_sleep(philo);

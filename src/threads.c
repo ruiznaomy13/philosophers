@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 20:34:53 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/02 22:52:15 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/03 20:49:47 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,21 @@
 void	check_philos(t_table *table)
 {
 	int	i;
+	int	j;
 
 	while (table->stop == 0)
 	{
 		i = -1;
-		while (++i < table->p_amount && !ft_dead(&table->philo[i]))//comprova que cap philo estigi mort
+		j = -1;
+		while (++i < table->p_amount && !ft_dead(&table->philo[i]))
 			;
-		if (i != table->p_amount)//si un ha mort
+		while (++j < table->p_amount && table->philo[j].finish)
+			;
+		if (i != table->p_amount || j == table->p_amount)
 		{
-			pthread_mutex_lock(&table->end);
-			table->stop = 1;//1 indica que un l'ha palmat
-			pthread_mutex_unlock(&table->end);
+			pthread_mutex_lock(&table->check);
+			table->stop = 1;
+			pthread_mutex_unlock(&table->check);
 		}
 	}
 }
@@ -49,8 +53,13 @@ int create_threads(t_table *table)
             return (-1);
     }
 	check_philos(table);
+	pthread_mutex_lock(&table->check);
 	if (table->stop)
+	{
+		pthread_mutex_unlock(&table->check);
 		return (1);
+	}
+	pthread_mutex_unlock(&table->check);
     i = -1;
     while (++i < table->p_amount)
         pthread_join(table->philo[i].th_id, NULL);

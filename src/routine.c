@@ -28,24 +28,24 @@ void	ft_eat(t_philo *philo)
 {
 	if ((philo->id % 2) == 0)
 		usleep(philo->table->t_eat * 10);
-	pthread_mutex_lock(&philo->table->updt);
-
+	
     pthread_mutex_lock(&philo->table->forks[philo->id - 1]);
     print_msj(philo, BLUE"has taken right fork");
 	pthread_mutex_lock(&philo->table->forks[philo->id % philo->table->p_amount]);
     print_msj(philo, BLUE"has taken left fork");
 
+	pthread_mutex_lock(&philo->table->updt);
     print_msj(philo, YELLOW"is eating");
 	philo->last_eat = get_time();
 	ft_usleep(philo->table->t_eat);
 	philo->n_food++;
+    pthread_mutex_unlock(&philo->table->updt);
 
     pthread_mutex_unlock(&philo->table->forks[philo->id - 1]);
     print_msj(philo, CYAN"has put down right fork");
     pthread_mutex_unlock(&philo->table->forks[philo->id % philo->table->p_amount]);
     print_msj(philo, CYAN"has put down left fork");
 
-    pthread_mutex_unlock(&philo->table->updt);
 }
 
 void	ft_sleep(t_philo *philo)
@@ -57,9 +57,8 @@ void	ft_sleep(t_philo *philo)
 void	ft_think(t_philo *philo)
 {
 	print_msj(philo, GREEN"is thinking");
-	usleep(philo->table->t_eat);
+	// usleep(philo->table->t_eat);
 }
-
 
 int	ft_dead(t_philo *philo)
 {
