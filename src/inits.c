@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 22:27:29 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/03 20:48:48 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/06 18:08:46 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,6 @@ int init(char **av, t_table *table)
 	table->stop = 0;
 	table->t_start = get_time();
     pthread_mutex_init(&table->msj, NULL);
-	pthread_mutex_init(&table->check, NULL);
     table->forks = (pthread_mutex_t *)malloc(sizeof(pthread_mutex_t) * table->p_amount);
     if (!table->forks)
         return (-1);

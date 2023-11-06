@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/03 20:47:51 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/06 18:08:06 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 # define GREEN		"\x1b[32m"
 # define YELLOW		"\x1b[33m"
 # define BLUE		"\x1b[34m"
-# define WHITE		"\033[0;37m"
+# define WHITE		"\e[1;37m"
 # define CYAN		"\x1b[36m"
 # define MAGENTA	"\033[95m"
 
@@ -57,7 +57,6 @@ struct s_table
     pthread_mutex_t updt;
 	pthread_mutex_t	msj;
 	pthread_mutex_t	end;
-	pthread_mutex_t	check;
     t_philo         *philo;
 };
 
@@ -84,9 +83,9 @@ void	*ft_calloc(size_t count, size_t size);
 long	diff_time(long start_time, long end_time);
 
 /* Routine */
-void	ft_eat(t_philo *philo);
-void	ft_sleep(t_philo *philo);
-void	ft_think(t_philo *philo);
+int		ft_eat(t_philo *philo);
+int		ft_sleep(t_philo *philo);
+int		ft_think(t_philo *philo);
 int		food_rep(t_philo *p);
 int		ft_dead(t_philo *philo);
 
