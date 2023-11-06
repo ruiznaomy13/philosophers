@@ -10,7 +10,7 @@ SRCS 		= $(SRCS_DIR)/main.c $(SRCS_DIR)/inits.c $(SRCS_DIR)/error_checker.c \
 OBJ_DIR		= obj
 OBJS		= $(patsubst $(SRCS_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRCS))
 DEPS		= $(addsuffix .d,$(basename ${OBJS}))
-CFLAGS		= -Wall -Wextra -Werror# -g -fsanitize=thread
+CFLAGS		= -Wall -Wextra -Werror -g -fsanitize=thread
 
 ######## COLORS ########
 GREEN		= \033[1;92m

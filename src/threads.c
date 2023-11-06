@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 20:34:53 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/06 18:52:19 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/06 22:07:13 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void    print_msj(t_philo *philo, char *msj)
 {
 	pthread_mutex_lock(&philo->table->msj);
 	if (!philo->table->stop)
-		printf(WHITE" %05ld   %d   %s\n", diff_time(philo->table->t_start, get_time()), philo->id, msj);
+		printf("%ld\t%d\t%s\n", diff_time(philo->table->t_start, get_time()), philo->id, msj);
 	pthread_mutex_unlock(&philo->table->msj);
 }
 
@@ -61,7 +61,12 @@ int create_threads(t_table *table)
 	}
 	check_philos(table);
 	i = -1;
-	while (++i < table->p_amount)
-		pthread_join(table->philo[i].th_id, NULL);
+	if (table->p_amount == 1)
+		pthread_detach(table->philo[0].th_id);
+	else
+	{
+		while (++i < table->p_amount)
+			pthread_join(table->philo[i].th_id, NULL);
+	}
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/06 18:08:06 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/06 22:04:16 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,6 @@ typedef struct s_philo
 	long int	last_eat;
 	int			n_food;
 	int			finish;
-    // int         num_eats;
     int         dead;
     t_table     *table;
 }               t_philo;
@@ -54,9 +53,7 @@ struct s_table
 	int				stop;
 	long int		t_start;
     pthread_mutex_t *forks;
-    pthread_mutex_t updt;
 	pthread_mutex_t	msj;
-	pthread_mutex_t	end;
     t_philo         *philo;
 };
 
@@ -66,12 +63,12 @@ int		create_threads(t_table *table);
 void	print_msj(t_philo *philo, char *msj);
 
 /* Checkers */
-int		error_msj(int error);
+int		error_msj(int error, int ac);
 int		arg_checker(int ac, char **av);
 int		check_nums(char *s);
 
 /* Inicializers */
-int		init(char **av, t_table *table);
+int		init_table(t_table *table, char **av);
 int		start_philos(t_table *table);
 
 /* Utils */
@@ -79,7 +76,6 @@ long	get_time(void);
 int		ft_isdigit(int i);
 void	ft_usleep(long time);
 long	ft_atol(const char *str);
-void	*ft_calloc(size_t count, size_t size);
 long	diff_time(long start_time, long end_time);
 
 /* Routine */
