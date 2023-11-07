@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 22:27:29 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/06 22:04:01 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 22:02:47 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,12 @@ int	init_mutex(t_table *table)
 	int	i;
 
 	i = -1;
-	if (pthread_mutex_init(&table->msj, NULL) != 0)
+	if (pthread_mutex_init(&table->msj, NULL) != 0 \
+	|| pthread_mutex_init(&table->food_count, NULL) != 0 \
+	|| pthread_mutex_init(&table->m_stop, NULL) != 0 \
+	|| pthread_mutex_init(&table->updt, NULL) != 0)
 		return (1);
-	table->forks = (pthread_mutex_t *)malloc(sizeof(pthread_mutex_t) * table->p_amount);
+	table->forks = (pthread_mutex_t *)malloc(sizeof(pthread_mutex_t) * table->p_amount + 1);
 	if (!table->forks)
 		return (1);
 	while (++i < table->p_amount)
@@ -27,6 +30,8 @@ int	init_mutex(t_table *table)
 		if (pthread_mutex_init(&table->forks[i], NULL) != 0)
 			return (1);
 	}
+	if (table->p_amount == 1 && pthread_mutex_init(&table->forks[i + 1], NULL) != 0)
+		return (1);	
 	return (0);
 }
 
@@ -46,6 +51,16 @@ int start_philos(t_table *table)
 		table->philo[i].n_food = 0;
 		table->philo[i].finish = 0;
 		table->philo[i].dead = 0;
+		if(table->p_amount == 1)
+		{
+			table->philo[i].r_fork = i;
+			table->philo[i].l_fork = i + 1;
+		}
+		else
+		{
+			table->philo[i].r_fork = i;
+			table->philo[i].l_fork = (i + 1) % table->p_amount;	
+		}
 		table->philo[i].last_eat = table->t_start;
 	}
 	return (0);

@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/06 22:04:16 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 21:46:36 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,8 @@ typedef struct s_philo
 	int			n_food;
 	int			finish;
     int         dead;
+	int			l_fork;
+	int			r_fork;
     t_table     *table;
 }               t_philo;
 
@@ -54,6 +56,9 @@ struct s_table
 	long int		t_start;
     pthread_mutex_t *forks;
 	pthread_mutex_t	msj;
+	pthread_mutex_t	updt;
+	pthread_mutex_t	m_stop;
+	pthread_mutex_t	food_count;
     t_philo         *philo;
 };
 
@@ -66,17 +71,20 @@ void	print_msj(t_philo *philo, char *msj);
 int		error_msj(int error, int ac);
 int		arg_checker(int ac, char **av);
 int		check_nums(char *s);
+int 	check_if_stop(t_table *table);
 
 /* Inicializers */
-int		init_table(t_table *table, char **av);
-int		start_philos(t_table *table);
+int			init_table(t_table *table, char **av);
+int			start_philos(t_table *table);
 
 /* Utils */
-long	get_time(void);
-int		ft_isdigit(int i);
-void	ft_usleep(long time);
-long	ft_atol(const char *str);
-long	diff_time(long start_time, long end_time);
+long		get_time(void);
+int			ft_isdigit(int i);
+void		ft_usleep(long time);
+long		ft_atol(const char *str);
+long		diff_time(long start_time, long end_time);
+long int	get_last_eat(t_philo *philo);
+void 		updt_last_eat(t_philo *philo);
 
 /* Routine */
 int		ft_eat(t_philo *philo);
