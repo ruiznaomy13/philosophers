@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 20:34:53 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 23:05:42 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 23:23:00 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	check_philos(t_table *table)
 		i = -1;
 		while (++i < table->p_amount)
 		{
-			if (food_rep(&table->philo[i]))
+			if (all_eat(table))
 			{
 				pthread_mutex_lock(&table->m_stop);
 				table->stop = 1;

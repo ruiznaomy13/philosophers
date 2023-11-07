@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 23:03:13 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 23:22:35 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,7 @@ void	print_msj(t_philo *philo, char *msj);
 int		error_msj(int error, int ac);
 int		arg_checker(int ac, char **av);
 int		check_nums(char *s);
+int 	all_eat(t_table *table);
 int 	check_if_stop(t_table *table);
 
 /* Inicializers */

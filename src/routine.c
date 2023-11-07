@@ -12,6 +12,19 @@
 
 #include "inc/philo.h"
 
+int all_eat(t_table *table)
+{
+	int	i;
+
+	i = -1;
+	while (++i < table->p_amount)
+	{
+		if (!food_rep(&table->philo[i]))
+			return (0);
+	}
+	return (1);
+}
+
 int	food_rep(t_philo *p)
 {
 	pthread_mutex_lock(&p->table->food_count);

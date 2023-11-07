@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 11:57:49 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 23:03:28 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 23:15:41 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ int	main(int ac, char **av)
 	if (init_table(&table, av))
 		return (0);
 	create_threads(&table);
-	//ft_free(&table);
 }
 
 void	*ft_routine(void *arg)
