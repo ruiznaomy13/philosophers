@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 21:46:36 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 22:26:14 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,6 @@ int			ft_isdigit(int i);
 void		ft_usleep(long time);
 long		ft_atol(const char *str);
 long		diff_time(long start_time, long end_time);
-long int	get_last_eat(t_philo *philo);
 void 		updt_last_eat(t_philo *philo);
 
 /* Routine */
