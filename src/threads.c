@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 20:34:53 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 22:09:01 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 23:05:42 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ int check_if_stop(t_table *table)
 	pthread_mutex_lock(&table->m_stop);
 	ret = table->stop;
 	pthread_mutex_unlock(&table->m_stop);
-	//unlock
 	return ret;
 }
 
@@ -40,6 +39,7 @@ void	check_philos(t_table *table)
 				pthread_mutex_lock(&table->msj);
 				printf(GREEN" 🍴🍝 ALL PHILOSOPHERS FINISHED EATING 🍝🍴\n");
 				pthread_mutex_unlock(&table->msj);
+				ft_free(table);
 				break;
 			}
 			else if (ft_dead(&table->philo[i]))
@@ -48,8 +48,9 @@ void	check_philos(t_table *table)
 				table->stop = 1;
 				pthread_mutex_unlock(&table->m_stop);
 				pthread_mutex_lock(&table->msj);
-				printf(RED" ❌ PHILOSOPHER %d DIED ❌\n", table->philo[i].id);
+				printf(RED" ❌ PHILOSOPHER %d DIED at %ldms. ❌\n", table->philo[i].id, diff_time(table->t_start, get_time()));
 				pthread_mutex_unlock(&table->msj);
+				ft_free(table);
 				break;
 			}
 		}

@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 11:57:49 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 22:07:36 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 23:03:28 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ void	ft_free(t_table *table)
 		while (++i < table->p_amount)
 			pthread_mutex_destroy(&table->forks[i]);
 		free(table->forks);
-		// table->forks = NULL;
 	}
 }
 

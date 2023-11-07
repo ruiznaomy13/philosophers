@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 12:15:00 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/07 22:26:14 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/07 23:03:13 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,7 @@ int 	check_if_stop(t_table *table);
 /* Inicializers */
 int			init_table(t_table *table, char **av);
 int			start_philos(t_table *table);
+void		ft_free(t_table *table);
 
 /* Utils */
 long		get_time(void);
