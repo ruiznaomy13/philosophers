@@ -41,6 +41,8 @@ The program is run from the command line with the following syntax:
 
 
 
+
+
 [SPANISH]
 Este programa simula el problema clásico de los filósofos comensales en una mesa redonda utilizando hilos y mutex en C.
 
