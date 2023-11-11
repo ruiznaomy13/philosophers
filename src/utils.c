@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 13:59:10 by ncastell          #+#    #+#             */
-/*   Updated: 2023/10/31 18:38:09 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/10 23:45:24 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,10 @@
 
 void	ft_usleep(long time)
 {
-	long	t = get_time();
-	while (8)
+	long	t;
+
+	t = get_time();
+	while (42)
 	{
 		usleep(100);
 		if ((get_time() - t) >= time)
@@ -23,9 +25,9 @@ void	ft_usleep(long time)
 	}
 }
 
-long diff_time(long start_time, long end_time)
+long	diff_time(long start_time, long end_time)
 {
-    return (end_time - start_time);
+	return (end_time - start_time);
 }
 
 int	ft_isdigit(int i)
@@ -39,7 +41,7 @@ long int	ft_atol(const char *str)
 {
 	int			i;
 	int			sign;
-	long int    res;
+	long int	res;
 
 	i = 0;
 	sign = 1;

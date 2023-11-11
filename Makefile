@@ -3,9 +3,8 @@ HEADER		= inc/philo.h
 
 INCLUDE		= -I./
 SRCS_DIR 	= src
-SRCS 		= $(SRCS_DIR)/main.c $(SRCS_DIR)/inits.c $(SRCS_DIR)/error_checker.c \
+SRCS 		= $(SRCS_DIR)/main.c $(SRCS_DIR)/inits.c $(SRCS_DIR)/checker.c \
 			$(SRCS_DIR)/threads.c $(SRCS_DIR)/routine.c $(SRCS_DIR)/utils.c
-# RUTAS		= lib/libft/libft.a lib/printf/libftprintf.a
 
 OBJ_DIR		= obj
 OBJS		= $(patsubst $(SRCS_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRCS))
@@ -18,7 +17,7 @@ RED			= \033[1;91m
 NC			= \033[0m
 
 ${OBJ_DIR}/%.o: $(SRCS_DIR)/%.c Makefile
-	@mkdir -p ${OBJ_DIR}	
+	@mkdir -p ${OBJ_DIR}
 	@${CC} -MT $@ ${CFLAGS} -MMD -MP ${INCLUDE} -c $< -o $@
 
 all:

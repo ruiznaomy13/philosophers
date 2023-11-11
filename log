@@ -1,1515 +1,2221 @@
-0	1	has taken right fork
-0	1	has taken left fork
-0	1	is eating
-0	3	has taken right fork
-0	3	has taken left fork
-0	3	is eating
-0	7	has taken right fork
-0	7	has taken left fork
-0	7	is eating
-0	5	has taken right fork
-0	5	has taken left fork
-0	5	is eating
-0	9	has taken right fork
-0	9	has taken left fork
-0	9	is eating
-0	11	has taken right fork
-0	11	has taken left fork
-0	11	is eating
-0	13	has taken right fork
-0	13	has taken left fork
-0	13	is eating
-0	15	has taken right fork
-0	15	has taken left fork
-0	15	is eating
-0	17	has taken right fork
-0	17	has taken left fork
-0	17	is eating
-0	19	has taken right fork
-0	19	has taken left fork
-0	19	is eating
-0	21	has taken right fork
-0	21	has taken left fork
-0	21	is eating
-0	23	has taken right fork
-0	23	has taken left fork
-0	23	is eating
-0	25	has taken right fork
-0	25	has taken left fork
-0	25	is eating
-0	27	has taken right fork
-0	27	has taken left fork
-0	27	is eating
-0	29	has taken right fork
-0	29	has taken left fork
-0	29	is eating
-0	31	has taken right fork
-0	31	has taken left fork
-0	31	is eating
-0	33	has taken right fork
-0	33	has taken left fork
-0	33	is eating
-0	35	has taken right fork
-0	35	has taken left fork
-0	35	is eating
-0	37	has taken right fork
-0	37	has taken left fork
-0	37	is eating
-0	39	has taken right fork
-0	39	has taken left fork
-0	39	is eating
-0	41	has taken right fork
-0	41	has taken left fork
-0	41	is eating
-0	43	has taken right fork
-0	43	has taken left fork
-0	43	is eating
-0	45	has taken right fork
-0	45	has taken left fork
-0	45	is eating
-0	47	has taken right fork
-0	47	has taken left fork
-0	47	is eating
-0	49	has taken right fork
-0	49	has taken left fork
-0	49	is eating
-0	51	has taken right fork
-0	51	has taken left fork
-0	51	is eating
-0	53	has taken right fork
-0	53	has taken left fork
-0	53	is eating
-0	55	has taken right fork
-0	55	has taken left fork
-0	55	is eating
-0	57	has taken right fork
-0	57	has taken left fork
-0	57	is eating
-0	59	has taken right fork
-0	59	has taken left fork
-0	59	is eating
-0	61	has taken right fork
-0	61	has taken left fork
-0	61	is eating
-0	63	has taken right fork
-0	63	has taken left fork
-0	63	is eating
-0	65	has taken right fork
-0	65	has taken left fork
-0	65	is eating
-0	67	has taken right fork
-0	67	has taken left fork
-0	67	is eating
-0	69	has taken right fork
-0	69	has taken left fork
-0	69	is eating
-0	71	has taken right fork
-0	71	has taken left fork
-0	71	is eating
-0	73	has taken right fork
-0	73	has taken left fork
-0	73	is eating
-0	75	has taken right fork
-0	75	has taken left fork
-0	75	is eating
-0	77	has taken right fork
-0	77	has taken left fork
-0	77	is eating
-0	79	has taken right fork
-0	79	has taken left fork
-0	79	is eating
-0	81	has taken right fork
-0	81	has taken left fork
-0	81	is eating
-0	83	has taken right fork
-0	83	has taken left fork
-0	83	is eating
-0	85	has taken right fork
-0	85	has taken left fork
-0	85	is eating
-0	87	has taken right fork
-0	87	has taken left fork
-0	87	is eating
-0	89	has taken right fork
-0	89	has taken left fork
-0	89	is eating
-0	91	has taken right fork
-0	91	has taken left fork
-0	91	is eating
-0	93	has taken right fork
-0	93	has taken left fork
-0	93	is eating
-0	95	has taken right fork
-0	95	has taken left fork
-0	95	is eating
-0	97	has taken right fork
-0	97	has taken left fork
-0	97	is eating
-0	99	has taken right fork
-0	99	has taken left fork
-0	99	is eating
-200	33	has put down right fork
-200	33	has put down left fork
-200	23	has put down right fork
-200	33	is sleeping
-200	11	has put down right fork
-200	15	has put down right fork
-200	7	has put down right fork
-200	57	has put down right fork
-200	15	has put down left fork
-200	71	has put down right fork
-200	19	has put down right fork
-200	95	has put down right fork
-200	69	has put down right fork
-200	19	has put down left fork
-200	95	has put down left fork
-200	79	has put down right fork
-200	95	is sleeping
-200	29	has put down right fork
-200	85	has put down right fork
-200	65	has put down right fork
-200	51	has put down right fork
-200	43	has put down right fork
-200	24	has taken right fork
-200	12	has taken right fork
-200	12	has taken left fork
-200	17	has put down right fork
-200	12	is eating
-200	16	has taken right fork
-200	30	has taken right fork
-200	16	has taken left fork
-200	30	has taken left fork
-200	53	has put down right fork
-200	30	is eating
-200	34	has taken right fork
-200	53	has put down left fork
-200	34	has taken left fork
-200	53	is sleeping
-200	34	is eating
-200	63	has put down right fork
-200	18	has taken right fork
-200	3	has put down right fork
-200	18	has taken left fork
-200	18	is eating
-200	47	has put down right fork
-200	54	has taken right fork
-200	23	has put down left fork
-200	54	has taken left fork
-200	54	is eating
-200	35	has put down right fork
-200	11	has put down left fork
-200	64	has taken right fork
-200	11	is sleeping
-200	64	has taken left fork
-200	64	is eating
-200	7	has put down left fork
-200	4	has taken right fork
-200	7	is sleeping
-200	4	has taken left fork
-200	48	has taken right fork
-200	79	has put down left fork
-200	48	has taken left fork
-200	79	is sleeping
-200	48	is eating
-200	31	has put down right fork
-200	91	has put down right fork
-200	43	has put down left fork
-200	65	has put down left fork
-200	91	has put down left fork
-200	65	is sleeping
-200	91	is sleeping
-200	73	has put down right fork
-200	41	has put down right fork
-200	39	has put down right fork
-200	41	has put down left fork
-200	58	has taken right fork
-200	39	has put down left fork
-200	87	has put down right fork
-200	39	is sleeping
-200	72	has taken right fork
-200	72	has taken left fork
-200	72	is eating
-200	61	has put down right fork
-200	74	has taken right fork
-200	9	has put down right fork
-200	80	has taken right fork
-200	13	has put down right fork
-200	66	has taken right fork
-200	86	has taken right fork
-200	21	has put down right fork
-200	16	is eating
-200	45	has put down right fork
-200	21	has put down left fork
-200	45	has put down left fork
-200	21	is sleeping
-200	27	has put down right fork
-200	10	has taken right fork
-200	45	is sleeping
-200	10	has taken left fork
-200	63	has put down left fork
-200	27	has put down left fork
-200	27	is sleeping
-200	10	is eating
-200	97	has put down right fork
-200	75	has put down right fork
-200	63	is sleeping
-200	22	has taken right fork
-200	46	has taken right fork
-200	3	has put down left fork
-200	59	has put down right fork
-200	75	has put down left fork
-200	3	is sleeping
-200	59	has put down left fork
-200	75	is sleeping
-200	59	is sleeping
-200	47	has put down left fork
-200	46	has taken left fork
-200	28	has taken right fork
-200	47	is sleeping
-200	57	has put down left fork
-200	46	is eating
-200	28	has taken left fork
-200	28	is eating
-200	19	is sleeping
-200	57	is sleeping
-200	15	is sleeping
-200	98	has taken right fork
-200	69	has put down left fork
-200	98	has taken left fork
-200	69	is sleeping
-200	98	is eating
-200	60	has taken right fork
-200	60	has taken left fork
-200	31	has put down left fork
-200	60	is eating
-200	31	is sleeping
-200	8	has taken right fork
-200	93	has put down right fork
-200	8	has taken left fork
-200	58	has taken left fork
-200	32	has taken right fork
-200	8	is eating
-200	32	has taken left fork
-200	32	is eating
-200	20	has taken right fork
-200	92	has taken right fork
-200	20	has taken left fork
-200	92	has taken left fork
-200	70	has taken right fork
-200	20	is eating
-200	70	has taken left fork
-200	92	is eating
-200	70	is eating
-200	77	has put down right fork
-200	40	has taken right fork
-200	77	has put down left fork
-200	88	has taken right fork
-200	77	is sleeping
-200	88	has taken left fork
-200	88	is eating
-200	66	has taken left fork
-200	9	has put down left fork
-200	66	is eating
-200	9	is sleeping
-200	13	has put down left fork
-200	86	has taken left fork
-200	13	is sleeping
-200	86	is eating
-200	83	has put down right fork
-200	97	has put down left fork
-200	97	is sleeping
-200	83	has put down left fork
-200	35	has put down left fork
-200	83	is sleeping
-200	25	has put down right fork
-200	71	has put down left fork
-200	85	has put down left fork
-200	71	is sleeping
-200	85	is sleeping
-200	81	has put down right fork
-200	24	has taken left fork
-200	81	has put down left fork
-200	24	is eating
-200	81	is sleeping
-200	58	is eating
-200	96	has taken right fork
-200	96	has taken left fork
-200	42	has taken right fork
-200	96	is eating
-200	26	has taken right fork
-200	40	has taken left fork
-200	61	has put down left fork
-200	40	is eating
-200	61	is sleeping
-200	62	has taken right fork
-200	22	has taken left fork
-200	62	has taken left fork
-200	22	is eating
-200	14	has taken right fork
-200	62	is eating
-200	23	is sleeping
-200	14	has taken left fork
-200	14	is eating
-200	55	has put down right fork
-200	25	has put down left fork
-200	25	is sleeping
-200	43	is sleeping
-200	73	has put down left fork
-200	41	is sleeping
-200	73	is sleeping
-200	84	has taken right fork
-200	84	has taken left fork
-200	5	has put down right fork
-200	87	has put down left fork
-200	5	has put down left fork
-200	87	is sleeping
-200	5	is sleeping
-200	94	has taken right fork
-200	6	has taken right fork
-200	94	has taken left fork
-200	82	has taken right fork
-200	6	has taken left fork
-200	67	has put down right fork
-200	94	is eating
-200	82	has taken left fork
-200	82	is eating
-200	6	is eating
-200	67	has put down left fork
-200	44	has taken right fork
-200	67	is sleeping
-200	29	has put down left fork
-200	44	has taken left fork
-200	29	is sleeping
-200	78	has taken right fork
-200	68	has taken right fork
-200	78	has taken left fork
-200	68	has taken left fork
-200	78	is eating
-200	68	is eating
-200	55	has put down left fork
-200	51	has put down left fork
-200	55	is sleeping
-200	51	is sleeping
-200	84	is eating
-200	1	has put down right fork
-200	42	has taken left fork
-200	52	has taken right fork
-200	42	is eating
-200	52	has taken left fork
-200	35	is sleeping
-200	52	is eating
-200	89	has put down right fork
-200	2	has taken right fork
-200	2	has taken left fork
-200	89	has put down left fork
-200	36	has taken right fork
-200	2	is eating
-200	56	has taken right fork
-200	36	has taken left fork
-200	56	has taken left fork
-200	36	is eating
-200	17	has put down left fork
-200	17	is sleeping
-200	56	is eating
-200	4	is eating
-200	90	has taken right fork
-200	49	has put down right fork
-200	90	has taken left fork
-200	90	is eating
-200	49	has put down left fork
-200	44	is eating
-200	49	is sleeping
-200	89	is sleeping
-200	93	has put down left fork
-200	93	is sleeping
-200	26	has taken left fork
-200	50	has taken right fork
-200	50	has taken left fork
-200	37	has put down right fork
-200	50	is eating
-200	37	has put down left fork
-200	76	has taken right fork
-200	26	is eating
-200	38	has taken right fork
-200	99	has put down right fork
-200	38	has taken left fork
-200	38	is eating
-200	37	is sleeping
-200	76	has taken left fork
-200	76	is eating
-200	99	has put down left fork
-200	99	is sleeping
-200	1	has put down left fork
-200	80	has taken left fork
-200	1	is sleeping
-200	100	has taken right fork
-200	100	has taken left fork
-200	74	has taken left fork
-200	74	is eating
-200	80	is eating
-200	100	is eating
-400	75	is thinking
-400	73	is thinking
-400	42	has put down right fork
-400	3	is thinking
-400	42	has put down left fork
-400	94	has put down right fork
-400	31	is thinking
-400	39	is thinking
-400	35	is thinking
-400	86	has put down right fork
-400	6	has put down right fork
-400	86	has put down left fork
-400	6	has put down left fork
-400	1	is thinking
-400	34	has put down right fork
-400	36	has put down right fork
-400	41	is thinking
-400	36	has put down left fork
-400	34	has put down left fork
-400	36	is sleeping
-400	74	has put down right fork
-400	34	is sleeping
-400	69	is thinking
-400	17	is thinking
-400	32	has put down right fork
-400	28	has put down right fork
-400	72	has put down right fork
-400	28	has put down left fork
-400	83	is thinking
-400	2	has put down right fork
-400	22	has put down right fork
-400	9	is thinking
-400	92	has put down right fork
-400	22	has put down left fork
-400	92	has put down left fork
-400	65	is thinking
-400	87	is thinking
-400	12	has put down right fork
-400	10	has put down right fork
-400	4	has put down right fork
-400	66	has put down right fork
-400	12	has put down left fork
-400	66	has put down left fork
-400	4	has put down left fork
-400	90	has put down right fork
-400	90	has put down left fork
-400	19	is thinking
-400	15	is thinking
-400	82	has put down right fork
-400	85	is thinking
-400	68	has put down right fork
-400	82	has put down left fork
-400	68	has put down left fork
-400	18	has put down right fork
-400	68	is sleeping
-400	35	has taken right fork
-400	99	is thinking
-400	86	is sleeping
-400	43	is thinking
-400	23	is thinking
-400	43	has taken right fork
-400	23	has taken right fork
-400	24	has put down right fork
-400	23	has taken left fork
-400	24	has put down left fork
-400	32	has put down left fork
-400	24	is sleeping
-400	3	has taken right fork
-400	3	has taken left fork
-400	32	is sleeping
-400	3	is eating
-400	45	is thinking
-400	5	is thinking
-400	88	has put down right fork
-400	5	has taken right fork
-400	88	has put down left fork
-400	5	has taken left fork
-400	88	is sleeping
-400	70	has put down right fork
-400	5	is eating
-400	22	is sleeping
-400	70	has put down left fork
-400	55	is thinking
-400	70	is sleeping
-400	42	is sleeping
-400	38	has put down right fork
-400	89	is thinking
-400	61	is thinking
-400	38	has put down left fork
-400	89	has taken right fork
-400	46	has put down right fork
-400	16	has put down right fork
-400	27	is thinking
-400	80	has put down right fork
-400	16	has put down left fork
-400	80	has put down left fork
-400	16	is sleeping
-400	80	is sleeping
-400	87	has taken right fork
-400	91	is thinking
-400	91	has taken right fork
-400	25	is thinking
-400	25	has taken right fork
-400	59	is thinking
-400	91	has taken left fork
-400	84	has put down right fork
-400	47	is thinking
-400	84	has put down left fork
-400	47	has taken right fork
-400	47	has taken left fork
-400	26	has put down right fork
-400	47	is eating
-400	71	is thinking
-400	20	has put down right fork
-400	71	has taken right fork
-400	60	has put down right fork
-400	71	has taken left fork
-400	20	has put down left fork
-400	57	is thinking
-400	20	is sleeping
-400	69	has taken right fork
-400	69	has taken left fork
-400	69	is eating
-400	58	has put down right fork
-400	54	has put down right fork
-400	100	has put down right fork
-400	58	has put down left fork
-400	58	is sleeping
-400	60	has put down left fork
-400	7	is thinking
-400	49	is thinking
-400	7	has taken right fork
-400	82	is sleeping
-400	51	is thinking
-400	7	has taken left fork
-400	11	is thinking
-400	18	has put down left fork
-400	11	has taken right fork
-400	11	has taken left fork
-400	11	is eating
-400	18	is sleeping
-400	13	is thinking
-400	13	has taken right fork
-400	8	has put down right fork
-400	13	has taken left fork
-400	56	has put down right fork
-400	8	has put down left fork
-400	35	has taken left fork
-400	8	is sleeping
-400	75	has taken right fork
-400	35	is eating
-400	75	has taken left fork
-400	75	is eating
-400	63	is thinking
-400	23	is eating
-400	72	has put down left fork
-400	28	is sleeping
-400	72	is sleeping
-400	92	is sleeping
-400	40	has put down right fork
-400	52	has put down right fork
-400	64	has put down right fork
-400	40	has put down left fork
-400	52	has put down left fork
-400	10	has put down left fork
-400	64	has put down left fork
-400	40	is sleeping
-400	95	is thinking
-400	10	is sleeping
-400	95	has taken right fork
-400	95	has taken left fork
-400	4	is sleeping
-400	29	is thinking
-400	95	is eating
-400	29	has taken right fork
-400	17	has taken right fork
-400	29	has taken left fork
-400	29	is eating
-400	17	has taken left fork
-400	38	is sleeping
-400	17	is eating
-400	12	is sleeping
-400	33	is thinking
-400	46	has put down left fork
-400	85	has taken right fork
-400	91	is eating
-400	27	has taken right fork
-400	67	is thinking
-400	27	has taken left fork
-400	71	is eating
-400	61	has taken right fork
-400	59	has taken right fork
-400	50	has put down right fork
-400	1	has taken right fork
-400	90	is sleeping
-400	50	has put down left fork
-400	1	has taken left fork
-400	19	has taken right fork
-400	1	is eating
-400	60	is sleeping
-400	50	is sleeping
-400	19	has taken left fork
-400	19	is eating
-400	100	has put down left fork
-400	97	is thinking
-400	76	has put down right fork
-400	94	has put down left fork
-400	94	is sleeping
-400	14	has put down right fork
-400	9	has taken right fork
-400	9	has taken left fork
-400	9	is eating
-400	13	is eating
-400	77	is thinking
-400	6	is sleeping
-400	77	has taken right fork
-400	77	has taken left fork
-400	77	is eating
-400	56	has put down left fork
-400	78	has put down right fork
-400	48	has put down right fork
-400	2	has put down left fork
-400	52	is sleeping
-400	89	has taken left fork
-400	30	has put down right fork
-400	89	is eating
-400	53	is thinking
-400	83	has taken right fork
-400	53	has taken right fork
-400	83	has taken left fork
-400	53	has taken left fork
-400	83	is eating
-400	53	is eating
-400	84	is sleeping
-400	43	has taken left fork
-400	44	has put down right fork
-400	43	is eating
-400	26	has put down left fork
-400	27	is eating
-400	67	has taken right fork
-400	26	is sleeping
-400	55	has taken right fork
-400	67	has taken left fork
-400	55	has taken left fork
-400	55	is eating
-400	67	is eating
-400	54	has put down left fork
-400	7	is eating
-400	100	is sleeping
-400	57	has taken right fork
-400	21	is thinking
-400	57	has taken left fork
-400	21	has taken right fork
-400	98	has put down right fork
-400	79	is thinking
-400	49	has taken right fork
-400	49	has taken left fork
-400	41	has taken right fork
-400	31	has taken right fork
-400	41	has taken left fork
-400	48	has put down left fork
-400	31	has taken left fork
-400	48	is sleeping
-400	31	is eating
-400	41	is eating
-400	39	has taken right fork
-400	66	is sleeping
-400	39	has taken left fork
-400	81	is thinking
-400	81	has taken right fork
-400	33	has taken right fork
-400	81	has taken left fork
-400	33	has taken left fork
-400	30	has put down left fork
-400	33	is eating
-400	81	is eating
-400	30	is sleeping
-400	51	has taken right fork
-400	37	is thinking
-400	44	has put down left fork
-400	37	has taken right fork
-400	51	has taken left fork
-400	59	has taken left fork
-400	59	is eating
-400	37	has taken left fork
-400	37	is eating
-400	51	is eating
-400	57	is eating
-400	99	has taken right fork
-400	56	is sleeping
-400	99	has taken left fork
-400	21	has taken left fork
-400	99	is eating
-400	79	has taken right fork
-400	98	has put down left fork
-400	79	has taken left fork
-400	73	has taken right fork
-400	73	has taken left fork
-400	73	is eating
-400	98	is sleeping
-400	74	has put down left fork
-400	74	is sleeping
-400	39	is eating
-400	2	is sleeping
-400	96	has put down right fork
-400	45	has taken right fork
-400	96	has put down left fork
-400	93	is thinking
-400	96	is sleeping
-400	15	has taken right fork
-400	76	has put down left fork
-400	15	has taken left fork
-400	76	is sleeping
-400	14	has put down left fork
-400	14	is sleeping
-400	79	is eating
-400	15	is eating
-400	78	has put down left fork
-400	65	has taken right fork
-400	21	is eating
-400	65	has taken left fork
-400	78	is sleeping
-400	65	is eating
-400	25	has taken left fork
-400	87	has taken left fork
-400	46	is sleeping
-400	45	has taken left fork
-400	54	is sleeping
-400	45	is eating
-400	44	is sleeping
-400	93	has taken right fork
-400	49	is eating
-400	85	has taken left fork
-400	85	is eating
-400	87	is eating
-400	62	has put down right fork
-400	97	has taken right fork
-400	97	has taken left fork
-400	97	is eating
-400	93	has taken left fork
-400	93	is eating
-400	61	has taken left fork
-400	25	is eating
-400	61	is eating
-400	64	is sleeping
-400	62	has put down left fork
-400	62	is sleeping
-400	63	has taken right fork
-400	63	has taken left fork
-400	63	is eating
-600	20	is thinking
-600	85	has put down right fork
-600	85	has put down left fork
-600	51	has put down right fork
-600	85	is sleeping
-600	51	has put down left fork
-600	68	is thinking
-600	98	is thinking
-600	64	is thinking
-600	43	has put down right fork
-600	90	is thinking
-600	63	has put down right fork
-600	32	is thinking
-600	41	has put down right fork
-600	95	has put down right fork
-600	41	has put down left fork
-600	95	has put down left fork
-600	41	is sleeping
-600	72	is thinking
-600	66	is thinking
-600	71	has put down right fork
-600	16	is thinking
-600	97	has put down right fork
-600	71	has put down left fork
-600	60	is thinking
-600	71	is sleeping
-600	97	has put down left fork
-600	4	is thinking
-600	97	is sleeping
-600	44	is thinking
-600	7	has put down right fork
-600	44	has taken right fork
-600	7	has put down left fork
-600	55	has put down right fork
-600	62	is thinking
-600	55	has put down left fork
-600	96	is thinking
-600	7	is sleeping
-600	96	has taken right fork
-600	27	has put down right fork
-600	96	has taken left fork
-600	27	has put down left fork
-600	96	is eating
-600	72	has taken right fork
-600	27	is sleeping
-600	40	is thinking
-600	23	has put down right fork
-600	28	is thinking
-600	23	has put down left fork
-600	28	has taken right fork
-600	23	is sleeping
-600	28	has taken left fork
-600	28	is eating
-600	80	is thinking
-600	24	is thinking
-600	58	is thinking
-600	78	is thinking
-600	65	has put down right fork
-600	57	has put down right fork
-600	59	has put down right fork
-600	6	is thinking
-600	57	has put down left fork
-600	59	has put down left fork
-600	57	is sleeping
-600	99	has put down right fork
-600	59	is sleeping
-600	21	has put down right fork
-600	1	has put down right fork
-600	21	has put down left fork
-600	93	has put down right fork
-600	66	has taken right fork
-600	93	has put down left fork
-600	66	has taken left fork
-600	34	is thinking
-600	93	is sleeping
-600	66	is eating
-600	5	has put down right fork
-600	75	has put down right fork
-600	92	is thinking
-600	46	is thinking
-600	100	is thinking
-600	74	is thinking
-600	100	has taken right fork
-600	100	has taken left fork
-600	36	is thinking
-600	100	is eating
-600	3	has put down right fork
-600	6	has taken right fork
-600	73	has put down right fork
-600	6	has taken left fork
-600	48	is thinking
-600	2	is thinking
-600	6	is eating
-600	2	has taken right fork
-600	2	has taken left fork
-600	14	is thinking
-600	2	is eating
-600	43	has put down left fork
-600	95	is sleeping
-600	63	has put down left fork
-600	43	is sleeping
-600	76	is thinking
-600	63	is sleeping
-600	76	has taken right fork
-600	89	has put down right fork
-600	76	has taken left fork
-600	67	has put down right fork
-600	76	is eating
-600	89	has put down left fork
-600	64	has taken right fork
-600	67	has put down left fork
-600	89	is sleeping
-600	64	has taken left fork
-600	67	is sleeping
-600	88	is thinking
-600	64	is eating
-600	9	has put down right fork
-600	9	has put down left fork
-600	72	has taken left fork
-600	9	is sleeping
-600	72	is eating
-600	56	is thinking
-600	37	has put down right fork
-600	56	has taken right fork
-600	37	has put down left fork
-600	56	has taken left fork
-600	79	has put down right fork
-600	37	is sleeping
-600	56	is eating
-600	79	has put down left fork
-600	15	has put down right fork
-600	35	has put down right fork
-600	79	is sleeping
-600	53	has put down right fork
-600	15	has put down left fork
-600	53	has put down left fork
-600	15	is sleeping
-600	39	has put down right fork
-600	53	is sleeping
-600	45	has put down right fork
-600	17	has put down right fork
-600	22	is thinking
-600	45	has put down left fork
-600	22	has taken right fork
-600	45	is sleeping
-600	22	has taken left fork
-600	65	has put down left fork
-600	17	has put down left fork
-600	65	is sleeping
-600	17	is sleeping
-600	70	is thinking
-600	99	has put down left fork
-600	54	is thinking
-600	99	is sleeping
-600	16	has taken right fork
-600	36	has taken right fork
-600	16	has taken left fork
-600	8	is thinking
-600	36	has taken left fork
-600	8	has taken right fork
-600	16	is eating
-600	36	is eating
-600	8	has taken left fork
-600	8	is eating
-600	46	has taken right fork
-600	75	has put down left fork
-600	46	has taken left fork
-600	84	is thinking
-600	46	is eating
-600	10	is thinking
-600	18	is thinking
-600	10	has taken right fork
-600	87	has put down right fork
-600	18	has taken right fork
-600	18	has taken left fork
-600	3	has put down left fork
-600	18	is eating
-600	3	is sleeping
-600	87	has put down left fork
-600	87	is sleeping
-600	4	has taken right fork
-600	11	has put down right fork
-600	4	has taken left fork
-600	42	is thinking
-600	11	has put down left fork
-600	4	is eating
-600	42	has taken right fork
-600	11	is sleeping
-600	44	has taken left fork
-600	42	has taken left fork
-600	42	is eating
-600	44	is eating
-600	13	has put down right fork
-600	33	has put down right fork
-600	13	has put down left fork
-600	98	has taken right fork
-600	33	has put down left fork
-600	29	has put down right fork
-600	98	has taken left fork
-600	33	is sleeping
-600	98	is eating
-600	29	has put down left fork
-600	35	has put down left fork
-600	25	has put down right fork
-600	39	has put down left fork
-600	35	is sleeping
-600	47	has put down right fork
-600	55	is sleeping
-600	77	has put down right fork
-600	81	has put down right fork
-600	77	has put down left fork
-600	77	is sleeping
-600	50	is thinking
-600	68	has taken right fork
-600	68	has taken left fork
-600	68	is eating
-600	13	is sleeping
-600	83	has put down right fork
-600	25	has put down left fork
-600	84	has taken right fork
-600	84	has taken left fork
-600	84	is eating
-600	69	has put down right fork
-600	31	has put down right fork
-600	22	is eating
-600	24	has taken right fork
-600	31	has put down left fork
-600	24	has taken left fork
-600	31	is sleeping
-600	24	is eating
-600	58	has taken right fork
-600	60	has taken right fork
-600	58	has taken left fork
-600	60	has taken left fork
-600	58	is eating
-600	60	is eating
-600	30	is thinking
-600	1	has put down left fork
-600	30	has taken right fork
-600	1	is sleeping
-600	49	has put down right fork
-600	30	has taken left fork
-600	30	is eating
-600	34	has taken right fork
-600	49	has put down left fork
-600	34	has taken left fork
-600	49	is sleeping
-600	14	has taken right fork
-600	34	is eating
-600	73	has put down left fork
-600	14	has taken left fork
-600	73	is sleeping
-600	14	is eating
-600	50	has taken right fork
-600	39	is sleeping
-600	50	has taken left fork
-600	50	is eating
-600	26	is thinking
-600	90	has taken right fork
-600	26	has taken right fork
-600	90	has taken left fork
-600	26	has taken left fork
-600	90	is eating
-600	26	is eating
-600	69	has put down left fork
-600	69	is sleeping
-600	25	is sleeping
-600	94	is thinking
-600	94	has taken right fork
-600	32	has taken right fork
-600	21	is sleeping
-600	32	has taken left fork
-600	40	has taken right fork
-600	5	has put down left fork
-600	40	has taken left fork
-600	52	is thinking
-600	5	is sleeping
-600	40	is eating
-600	51	is sleeping
-600	52	has taken right fork
-600	52	has taken left fork
-600	86	is thinking
-600	86	has taken right fork
-600	86	has taken left fork
-600	74	has taken right fork
-600	86	is eating
-600	82	is thinking
-600	82	has taken right fork
-600	48	has taken right fork
-600	82	has taken left fork
-600	48	has taken left fork
-600	82	is eating
-600	48	is eating
-600	61	has put down right fork
-600	78	has taken right fork
-600	83	has put down left fork
-600	61	has put down left fork
-600	88	has taken right fork
-600	83	is sleeping
-600	12	is thinking
-600	61	is sleeping
-600	88	has taken left fork
-600	54	has taken right fork
-600	12	has taken right fork
-600	88	is eating
-600	12	has taken left fork
-600	12	is eating
-600	54	has taken left fork
-600	19	has put down right fork
-600	94	has taken left fork
-600	54	is eating
-600	94	is eating
-600	19	has put down left fork
-600	19	is sleeping
-600	32	is eating
-600	10	has taken left fork
-600	10	is eating
-600	75	is sleeping
-600	52	is eating
-600	20	has taken right fork
-600	20	has taken left fork
-600	29	is sleeping
-600	20	is eating
-600	70	has taken right fork
-600	70	has taken left fork
-600	70	is eating
-600	62	has taken right fork
-600	38	is thinking
-600	80	has taken right fork
-600	38	has taken right fork
-600	80	has taken left fork
-600	38	has taken left fork
-600	62	has taken left fork
-600	81	has put down left fork
-600	81	is sleeping
-600	62	is eating
-600	38	is eating
-600	74	has taken left fork
-600	78	has taken left fork
-600	47	has put down left fork
-600	91	has put down right fork
-600	47	is sleeping
-600	91	has put down left fork
-600	91	is sleeping
-600	80	is eating
-600	92	has taken right fork
-600	92	has taken left fork
-600	92	is eating
-600	78	is eating
-600	74	is eating
-800	52	has put down right fork
-800	76	has put down right fork
-800	52	has put down left fork
-800	76	has put down left fork
-800	52	is sleeping
-800	100	has put down right fork
-800	35	is thinking
-800	76	is sleeping
-800	100	has put down left fork
-800	25	is thinking
-800	100	is sleeping
-800	88	has put down right fork
-800	6	has put down right fork
-800	13	is thinking
-800	9	is thinking
-800	37	is thinking
-800	30	has put down right fork
-800	1	is thinking
-800	49	is thinking
-800	42	has put down right fork
-800	42	has put down left fork
-800	33	is thinking
-800	87	is thinking
-800	89	is thinking
-800	72	has put down right fork
-800	89	has taken right fork
-800	15	is thinking
-800	96	has put down right fork
-800	96	has put down left fork
-800	40	has put down right fork
-800	74	has put down right fork
-800	12	has put down right fork
-800	80	has put down right fork
-800	80	has put down left fork
-800	32	has put down right fork
-800	7	is thinking
-800	17	is thinking
-800	7	has taken right fork
-800	97	is thinking
-800	59	is thinking
-800	71	is thinking
-800	91	is thinking
-800	48	has put down right fork
-800	67	is thinking
-800	26	has put down right fork
-800	48	has put down left fork
-800	56	has put down right fork
-800	26	has put down left fork
-800	48	is sleeping
-800	56	has put down left fork
-800	26	is sleeping
-800	56	is sleeping
-800	5	is thinking
-800	8	has put down right fork
-800	43	is thinking
-800	43	has taken right fork
-800	19	is thinking
-800	43	has taken left fork
-800	70	has put down right fork
-800	4	has put down right fork
-800	36	has put down right fork
-800	70	has put down left fork
-800	4	has put down left fork
-800	20	has put down right fork
-800	36	has put down left fork
-800	20	has put down left fork
-800	36	is sleeping
-800	4	is sleeping
-800	20	is sleeping
-800	81	is thinking
-800	81	has taken right fork
-800	51	is thinking
-800	81	has taken left fork
-800	81	is eating
-800	29	is thinking
-800	84	has put down right fork
-800	14	has put down right fork
-800	84	has put down left fork
-800	49	has taken right fork
-800	14	has put down left fork
-800	47	is thinking
-800	49	has taken left fork
-800	82	has put down right fork
-800	14	is sleeping
-800	49	is eating
-800	82	has put down left fork
-800	46	has put down right fork
-800	82	is sleeping
-800	94	has put down right fork
-800	99	is thinking
-800	94	has put down left fork
-800	9	has taken right fork
-800	9	has taken left fork
-800	39	is thinking
-800	9	is eating
-800	71	has taken right fork
-800	3	is thinking
-800	71	has taken left fork
-800	31	is thinking
-800	28	has put down right fork
-800	31	has taken right fork
-800	10	has put down right fork
-800	28	has put down left fork
-800	72	has put down left fork
-800	28	is sleeping
-800	10	has put down left fork
-800	72	is sleeping
-800	10	is sleeping
-800	40	has put down left fork
-800	63	is thinking
-800	40	is sleeping
-800	50	has put down right fork
-800	21	is thinking
-800	79	is thinking
-800	90	has put down right fork
-800	15	has taken right fork
-800	65	is thinking
-800	15	has taken left fork
-800	60	has put down right fork
-800	15	is eating
-800	12	has put down left fork
-800	60	has put down left fork
-800	12	is sleeping
-800	64	has put down right fork
-800	32	has put down left fork
-800	47	has taken right fork
-800	32	is sleeping
-800	64	has put down left fork
-800	64	is sleeping
-800	93	is thinking
-800	47	has taken left fork
-800	45	is thinking
-800	97	has taken right fork
-800	97	has taken left fork
-800	16	has put down right fork
-800	97	is eating
-800	16	has put down left fork
-800	41	is thinking
-800	29	has taken right fork
-800	8	has put down left fork
-800	29	has taken left fork
-800	43	is eating
-800	8	is sleeping
-800	29	is eating
-800	89	has taken left fork
-800	89	is eating
-800	13	has taken right fork
-800	33	has taken right fork
-800	13	has taken left fork
-800	66	has put down right fork
-800	51	has taken right fork
-800	51	has taken left fork
-800	66	has put down left fork
-800	51	is eating
-800	58	has put down right fork
-800	66	is sleeping
-800	84	is sleeping
-800	58	has put down left fork
-800	6	has put down left fork
-800	58	is sleeping
-800	6	is sleeping
-800	27	is thinking
-800	27	has taken right fork
-800	27	has taken left fork
-800	46	has put down left fork
-800	65	has taken right fork
-800	46	is sleeping
-800	65	has taken left fork
-800	1	has taken right fork
-800	61	is thinking
-800	65	is eating
-800	61	has taken right fork
-800	94	is sleeping
-800	1	has taken left fork
-800	1	is eating
-800	61	has taken left fork
-800	61	is eating
-800	71	is eating
-800	5	has taken right fork
-800	18	has put down right fork
-800	98	has put down right fork
-800	18	has put down left fork
-800	54	has put down right fork
-800	98	has put down left fork
-800	86	has put down right fork
-800	98	is sleeping
-800	54	has put down left fork
-800	54	is sleeping
-800	50	has put down left fork
-800	50	is sleeping
-800	21	has taken right fork
-800	23	is thinking
-800	78	has put down right fork
-800	21	has taken left fork
-800	21	is eating
-800	75	is thinking
-800	67	has taken right fork
-800	75	has taken right fork
-800	75	has taken left fork
-800	67	has taken left fork
-800	75	is eating
-800	68	has put down right fork
-800	24	has put down right fork
-800	68	has put down left fork
-800	59	has taken right fork
-800	24	has put down left fork
-800	16	is sleeping
-800	24	is sleeping
-800	77	is thinking
-800	77	has taken right fork
-800	44	has put down right fork
-800	38	has put down right fork
-800	73	is thinking
-800	55	is thinking
-800	73	has taken right fork
-800	38	has put down left fork
-800	13	is eating
-800	73	has taken left fork
-800	73	is eating
-800	38	is sleeping
-800	88	has put down left fork
-800	91	has taken right fork
-800	55	has taken right fork
-800	91	has taken left fork
-800	34	has put down right fork
-800	88	is sleeping
-800	55	has taken left fork
-800	30	has put down left fork
-800	30	is sleeping
-800	92	has put down right fork
-800	27	is eating
-800	85	is thinking
-800	19	has taken right fork
-800	99	has taken right fork
-800	19	has taken left fork
-800	31	has taken left fork
-800	19	is eating
-800	99	has taken left fork
-800	99	is eating
-800	31	is eating
-800	87	has taken right fork
-800	2	has put down right fork
-800	87	has taken left fork
-800	87	is eating
-800	96	is sleeping
-800	74	has put down left fork
-800	79	has taken right fork
-800	74	is sleeping
-800	79	has taken left fork
-800	47	is eating
-800	79	is eating
-800	22	has put down right fork
-800	68	is sleeping
-800	41	has taken right fork
-800	57	is thinking
-800	45	has taken right fork
-800	83	is thinking
-800	45	has taken left fork
-800	83	has taken right fork
-800	39	has taken right fork
-800	83	has taken left fork
-800	39	has taken left fork
-800	83	is eating
-800	77	has taken left fork
-800	77	is eating
-800	35	has taken right fork
-800	55	is eating
-800	11	is thinking
-800	35	has taken left fork
-800	53	is thinking
-800	11	has taken right fork
-800	53	has taken right fork
-800	95	is thinking
-800	37	has taken right fork
-800	95	has taken right fork
-800	37	has taken left fork
-800	95	has taken left fork
-800	37	is eating
-800	85	has taken right fork
-800	95	is eating
-800	85	has taken left fork
-800	3	has taken right fork
-800	85	is eating
-800	18	is sleeping
-800	3	has taken left fork
-800	3	is eating
-800	86	has put down left fork
-800	86	is sleeping
-800	23	has taken right fork
-800	62	has put down right fork
-800	23	has taken left fork
-800	59	has taken left fork
-800	59	is eating
-800	22	has put down left fork
-800	62	has put down left fork
-800	62	is sleeping
-800	22	is sleeping
-800	23	is eating
-800	41	has taken left fork
-800	45	is eating
-800	44	has put down left fork
-800	44	is sleeping
-800	93	has taken right fork
-800	11	has taken left fork
-800	93	has taken left fork
-800	11	is eating
-800	42	is sleeping
-800	92	has put down left fork
-800	92	is sleeping
-800	93	is eating
-800	17	has taken right fork
-800	35	is eating
-800	17	has taken left fork
-800	17	is eating
-800	80	is sleeping
-800	63	has taken right fork
-800	63	has taken left fork
-800	2	has put down left fork
-800	63	is eating
-800	25	has taken right fork
-800	2	is sleeping
-800	90	has put down left fork
-800	90	is sleeping
-800	41	is eating
-800	25	has taken left fork
-800	25	is eating
-800	67	is eating
-800	70	is sleeping
-800	57	has taken right fork
-800	57	has taken left fork
-800	39	is eating
-800	34	has put down left fork
-800	57	is eating
-800	34	is sleeping
-800	33	has taken left fork
-800	91	is eating
-800	33	is eating
-800	53	has taken left fork
-800	60	is sleeping
-800	7	has taken left fork
-800	53	is eating
-800	7	is eating
-800	69	is thinking
-800	69	has taken right fork
-800	69	has taken left fork
-800	69	is eating
-800	78	has put down left fork
-800	78	is sleeping
-800	5	has taken left fork
-800	5	is eating
-1000	7	has put down right fork
-1000	88	is thinking
-1000	45	has put down right fork
-1000	14	is thinking
-1000	7	has put down left fork
-1000	7	is sleeping
-1000	57	has put down right fork
-1000	93	has put down right fork
-1000	90	is thinking
-1000	33	has put down right fork
-1000	4	is thinking
-1000	33	has put down left fork
-1000	95	has put down right fork
-1000	95	has put down left fork
+0	1	[36mhas taken right fork 🍴
+0	1	[36mhas taken left fork 🍴
+0	1	[95mis eating 🍝
+0	3	[36mhas taken right fork 🍴
+0	3	[36mhas taken left fork 🍴
+0	3	[95mis eating 🍝
+0	5	[36mhas taken right fork 🍴
+0	5	[36mhas taken left fork 🍴
+0	5	[95mis eating 🍝
+0	7	[36mhas taken right fork 🍴
+0	7	[36mhas taken left fork 🍴
+0	7	[95mis eating 🍝
+0	9	[36mhas taken right fork 🍴
+0	9	[36mhas taken left fork 🍴
+0	9	[95mis eating 🍝
+1	11	[36mhas taken right fork 🍴
+1	11	[36mhas taken left fork 🍴
+1	11	[95mis eating 🍝
+1	13	[36mhas taken right fork 🍴
+1	13	[36mhas taken left fork 🍴
+1	13	[95mis eating 🍝
+1	15	[36mhas taken right fork 🍴
+1	15	[36mhas taken left fork 🍴
+1	15	[95mis eating 🍝
+1	17	[36mhas taken right fork 🍴
+1	17	[36mhas taken left fork 🍴
+1	17	[95mis eating 🍝
+1	19	[36mhas taken right fork 🍴
+1	19	[36mhas taken left fork 🍴
+1	19	[95mis eating 🍝
+1	21	[36mhas taken right fork 🍴
+1	21	[36mhas taken left fork 🍴
+1	21	[95mis eating 🍝
+1	23	[36mhas taken right fork 🍴
+1	23	[36mhas taken left fork 🍴
+1	23	[95mis eating 🍝
+1	25	[36mhas taken right fork 🍴
+1	25	[36mhas taken left fork 🍴
+1	25	[95mis eating 🍝
+1	27	[36mhas taken right fork 🍴
+1	27	[36mhas taken left fork 🍴
+1	27	[95mis eating 🍝
+1	29	[36mhas taken right fork 🍴
+1	29	[36mhas taken left fork 🍴
+1	29	[95mis eating 🍝
+1	31	[36mhas taken right fork 🍴
+1	31	[36mhas taken left fork 🍴
+1	31	[95mis eating 🍝
+1	33	[36mhas taken right fork 🍴
+1	33	[36mhas taken left fork 🍴
+1	33	[95mis eating 🍝
+1	35	[36mhas taken right fork 🍴
+1	35	[36mhas taken left fork 🍴
+1	35	[95mis eating 🍝
+1	37	[36mhas taken right fork 🍴
+1	37	[36mhas taken left fork 🍴
+1	37	[95mis eating 🍝
+1	39	[36mhas taken right fork 🍴
+1	39	[36mhas taken left fork 🍴
+1	39	[95mis eating 🍝
+1	41	[36mhas taken right fork 🍴
+1	41	[36mhas taken left fork 🍴
+1	41	[95mis eating 🍝
+1	43	[36mhas taken right fork 🍴
+1	43	[36mhas taken left fork 🍴
+1	43	[95mis eating 🍝
+1	45	[36mhas taken right fork 🍴
+1	45	[36mhas taken left fork 🍴
+1	45	[95mis eating 🍝
+1	47	[36mhas taken right fork 🍴
+1	47	[36mhas taken left fork 🍴
+1	47	[95mis eating 🍝
+1	49	[36mhas taken right fork 🍴
+1	49	[36mhas taken left fork 🍴
+1	49	[95mis eating 🍝
+1	51	[36mhas taken right fork 🍴
+1	51	[36mhas taken left fork 🍴
+1	51	[95mis eating 🍝
+1	53	[36mhas taken right fork 🍴
+101	19	[36mhas put down right fork 🍴
+101	19	[36mhas put down left fork 🍴
+101	11	[36mhas put down right fork 🍴
+101	11	[36mhas put down left fork 🍴
+101	45	[36mhas put down right fork 🍴
+101	45	[36mhas put down left fork 🍴
+101	11	is sleeping 🌙
+101	35	[36mhas put down right fork 🍴
+101	35	[36mhas put down left fork 🍴
+101	45	is sleeping 🌙
+101	35	is sleeping 🌙
+101	1	[36mhas put down right fork 🍴
+101	1	[36mhas put down left fork 🍴
+101	9	[36mhas put down right fork 🍴
+101	1	is sleeping 🌙
+101	9	[36mhas put down left fork 🍴
+101	21	[36mhas put down right fork 🍴
+101	21	[36mhas put down left fork 🍴
+101	53	[36mhas taken left fork 🍴
+101	46	[36mhas taken right fork 🍴
+101	19	is sleeping 🌙
+101	2	[36mhas taken right fork 🍴
+101	27	[36mhas put down right fork 🍴
+101	27	[36mhas put down left fork 🍴
+101	27	is sleeping 🌙
+101	10	[36mhas taken right fork 🍴
+101	13	[36mhas put down right fork 🍴
+101	10	[36mhas taken left fork 🍴
+101	13	[36mhas put down left fork 🍴
+101	10	[95mis eating 🍝
+101	21	is sleeping 🌙
+101	13	is sleeping 🌙
+101	23	[36mhas put down right fork 🍴
+101	9	is sleeping 🌙
+101	23	[36mhas put down left fork 🍴
+101	53	[95mis eating 🍝
+101	23	is sleeping 🌙
+101	24	[36mhas taken right fork 🍴
+101	33	[36mhas put down right fork 🍴
+101	33	[36mhas put down left fork 🍴
+101	33	is sleeping 🌙
+101	25	[36mhas put down right fork 🍴
+101	25	[36mhas put down left fork 🍴
+101	24	[36mhas taken left fork 🍴
+101	26	[36mhas taken right fork 🍴
+101	26	[36mhas taken left fork 🍴
+101	26	[95mis eating 🍝
+101	24	[95mis eating 🍝
+101	3	[36mhas put down right fork 🍴
+101	25	is sleeping 🌙
+101	3	[36mhas put down left fork 🍴
+101	2	[36mhas taken left fork 🍴
+101	2	[95mis eating 🍝
+101	4	[36mhas taken right fork 🍴
+101	28	[36mhas taken right fork 🍴
+101	3	is sleeping 🌙
+101	43	[36mhas put down right fork 🍴
+101	43	[36mhas put down left fork 🍴
+101	43	is sleeping 🌙
+101	34	[36mhas taken right fork 🍴
+101	34	[36mhas taken left fork 🍴
+101	34	[95mis eating 🍝
+101	36	[36mhas taken right fork 🍴
+101	17	[36mhas put down right fork 🍴
+101	17	[36mhas put down left fork 🍴
+101	17	is sleeping 🌙
+101	5	[36mhas put down right fork 🍴
+101	4	[36mhas taken left fork 🍴
+101	4	[95mis eating 🍝
+101	6	[36mhas taken right fork 🍴
+101	5	[36mhas put down left fork 🍴
+101	5	is sleeping 🌙
+101	14	[36mhas taken right fork 🍴
+101	18	[36mhas taken right fork 🍴
+101	18	[36mhas taken left fork 🍴
+101	18	[95mis eating 🍝
+101	37	[36mhas put down right fork 🍴
+101	36	[36mhas taken left fork 🍴
+101	36	[95mis eating 🍝
+101	37	[36mhas put down left fork 🍴
+101	38	[36mhas taken right fork 🍴
+101	37	is sleeping 🌙
+101	47	[36mhas put down right fork 🍴
+101	46	[36mhas taken left fork 🍴
+101	46	[95mis eating 🍝
+101	47	[36mhas put down left fork 🍴
+101	47	is sleeping 🌙
+101	48	[36mhas taken right fork 🍴
+101	44	[36mhas taken right fork 🍴
+101	44	[36mhas taken left fork 🍴
+101	44	[95mis eating 🍝
+101	51	[36mhas put down right fork 🍴
+101	51	[36mhas put down left fork 🍴
+101	51	is sleeping 🌙
+101	52	[36mhas taken right fork 🍴
+101	31	[36mhas put down right fork 🍴
+101	31	[36mhas put down left fork 🍴
+101	31	is sleeping 🌙
+101	32	[36mhas taken right fork 🍴
+101	32	[36mhas taken left fork 🍴
+101	32	[95mis eating 🍝
+101	15	[36mhas put down right fork 🍴
+101	14	[36mhas taken left fork 🍴
+101	16	[36mhas taken right fork 🍴
+101	15	[36mhas put down left fork 🍴
+101	16	[36mhas taken left fork 🍴
+101	16	[95mis eating 🍝
+101	15	is sleeping 🌙
+101	14	[95mis eating 🍝
+101	49	[36mhas put down right fork 🍴
+101	48	[36mhas taken left fork 🍴
+101	48	[95mis eating 🍝
+101	50	[36mhas taken right fork 🍴
+101	50	[36mhas taken left fork 🍴
+101	50	[95mis eating 🍝
+101	49	[36mhas put down left fork 🍴
+101	49	is sleeping 🌙
+101	39	[36mhas put down right fork 🍴
+101	38	[36mhas taken left fork 🍴
+101	40	[36mhas taken right fork 🍴
+101	39	[36mhas put down left fork 🍴
+101	38	[95mis eating 🍝
+101	39	is sleeping 🌙
+101	29	[36mhas put down right fork 🍴
+101	28	[36mhas taken left fork 🍴
+101	30	[36mhas taken right fork 🍴
+101	30	[36mhas taken left fork 🍴
+101	30	[95mis eating 🍝
+101	29	[36mhas put down left fork 🍴
+101	29	is sleeping 🌙
+101	28	[95mis eating 🍝
+101	20	[36mhas taken right fork 🍴
+101	20	[36mhas taken left fork 🍴
+101	20	[95mis eating 🍝
+101	22	[36mhas taken right fork 🍴
+101	22	[36mhas taken left fork 🍴
+101	22	[95mis eating 🍝
+101	41	[36mhas put down right fork 🍴
+101	40	[36mhas taken left fork 🍴
+101	40	[95mis eating 🍝
+101	42	[36mhas taken right fork 🍴
+101	42	[36mhas taken left fork 🍴
+101	42	[95mis eating 🍝
+101	41	[36mhas put down left fork 🍴
+101	41	is sleeping 🌙
+101	7	[36mhas put down right fork 🍴
+101	6	[36mhas taken left fork 🍴
+101	8	[36mhas taken right fork 🍴
+101	8	[36mhas taken left fork 🍴
+101	8	[95mis eating 🍝
+101	7	[36mhas put down left fork 🍴
+101	7	is sleeping 🌙
+101	6	[95mis eating 🍝
+101	12	[36mhas taken right fork 🍴
+101	12	[36mhas taken left fork 🍴
+101	12	[95mis eating 🍝
+201	43	[34mis thinking 💭
+201	51	[34mis thinking 💭
+201	23	[34mis thinking 💭
+201	31	[34mis thinking 💭
+201	1	[34mis thinking 💭
+201	19	[34mis thinking 💭
+201	8	[36mhas put down right fork 🍴
+201	45	[34mis thinking 💭
+201	7	[34mis thinking 💭
+201	25	[34mis thinking 💭
+201	11	[34mis thinking 💭
+201	9	[34mis thinking 💭
+201	13	[34mis thinking 💭
+201	49	[34mis thinking 💭
+201	33	[34mis thinking 💭
+201	47	[34mis thinking 💭
+201	5	[34mis thinking 💭
+201	15	[34mis thinking 💭
+201	21	[34mis thinking 💭
+201	8	[36mhas put down left fork 🍴
+201	8	is sleeping 🌙
+201	3	[34mis thinking 💭
+201	41	[34mis thinking 💭
+201	37	[34mis thinking 💭
+201	29	[34mis thinking 💭
+201	35	[34mis thinking 💭
+201	39	[34mis thinking 💭
+201	27	[34mis thinking 💭
+201	17	[34mis thinking 💭
+201	50	[36mhas put down right fork 🍴
+201	50	[36mhas put down left fork 🍴
+201	50	is sleeping 🌙
+201	4	[36mhas put down right fork 🍴
+201	4	[36mhas put down left fork 🍴
+201	4	is sleeping 🌙
+201	42	[36mhas put down right fork 🍴
+201	42	[36mhas put down left fork 🍴
+201	42	is sleeping 🌙
+201	28	[36mhas put down right fork 🍴
+201	28	[36mhas put down left fork 🍴
+201	28	is sleeping 🌙
+201	46	[36mhas put down right fork 🍴
+201	46	[36mhas put down left fork 🍴
+201	46	is sleeping 🌙
+201	30	[36mhas put down right fork 🍴
+201	30	[36mhas put down left fork 🍴
+201	30	is sleeping 🌙
+201	40	[36mhas put down right fork 🍴
+201	40	[36mhas put down left fork 🍴
+201	40	is sleeping 🌙
+201	16	[36mhas put down right fork 🍴
+201	16	[36mhas put down left fork 🍴
+201	16	is sleeping 🌙
+201	44	[36mhas put down right fork 🍴
+201	44	[36mhas put down left fork 🍴
+201	44	is sleeping 🌙
+201	14	[36mhas put down right fork 🍴
+201	14	[36mhas put down left fork 🍴
+201	14	is sleeping 🌙
+201	26	[36mhas put down right fork 🍴
+201	26	[36mhas put down left fork 🍴
+201	26	is sleeping 🌙
+201	24	[36mhas put down right fork 🍴
+201	24	[36mhas put down left fork 🍴
+201	24	is sleeping 🌙
+201	31	[36mhas taken right fork 🍴
+201	32	[36mhas put down right fork 🍴
+201	32	[36mhas put down left fork 🍴
+201	32	is sleeping 🌙
+201	31	[36mhas taken left fork 🍴
+201	31	[95mis eating 🍝
+201	22	[36mhas put down right fork 🍴
+201	22	[36mhas put down left fork 🍴
+201	22	is sleeping 🌙
+201	23	[36mhas taken right fork 🍴
+201	23	[36mhas taken left fork 🍴
+201	23	[95mis eating 🍝
+201	20	[36mhas put down right fork 🍴
+201	20	[36mhas put down left fork 🍴
+201	20	is sleeping 🌙
+201	6	[36mhas put down right fork 🍴
+201	6	[36mhas put down left fork 🍴
+201	6	is sleeping 🌙
+201	36	[36mhas put down right fork 🍴
+201	36	[36mhas put down left fork 🍴
+201	36	is sleeping 🌙
+201	12	[36mhas put down right fork 🍴
+201	12	[36mhas put down left fork 🍴
+201	12	is sleeping 🌙
+201	48	[36mhas put down right fork 🍴
+201	48	[36mhas put down left fork 🍴
+201	48	is sleeping 🌙
+201	45	[36mhas taken right fork 🍴
+201	45	[36mhas taken left fork 🍴
+201	45	[95mis eating 🍝
+201	38	[36mhas put down right fork 🍴
+201	38	[36mhas put down left fork 🍴
+201	38	is sleeping 🌙
+201	10	[36mhas put down right fork 🍴
+201	10	[36mhas put down left fork 🍴
+201	10	is sleeping 🌙
+201	2	[36mhas put down right fork 🍴
+201	2	[36mhas put down left fork 🍴
+201	2	is sleeping 🌙
+201	3	[36mhas taken right fork 🍴
+201	3	[36mhas taken left fork 🍴
+201	3	[95mis eating 🍝
+201	25	[36mhas taken right fork 🍴
+201	25	[36mhas taken left fork 🍴
+201	25	[95mis eating 🍝
+201	11	[36mhas taken right fork 🍴
+201	11	[36mhas taken left fork 🍴
+201	11	[95mis eating 🍝
+201	7	[36mhas taken right fork 🍴
+201	7	[36mhas taken left fork 🍴
+201	7	[95mis eating 🍝
+201	13	[36mhas taken right fork 🍴
+201	13	[36mhas taken left fork 🍴
+201	13	[95mis eating 🍝
+201	9	[36mhas taken right fork 🍴
+201	33	[36mhas taken right fork 🍴
+201	9	[36mhas taken left fork 🍴
+201	9	[95mis eating 🍝
+201	49	[36mhas taken right fork 🍴
+201	49	[36mhas taken left fork 🍴
+201	49	[95mis eating 🍝
+201	5	[36mhas taken right fork 🍴
+201	5	[36mhas taken left fork 🍴
+201	5	[95mis eating 🍝
+201	15	[36mhas taken right fork 🍴
+201	15	[36mhas taken left fork 🍴
+201	15	[95mis eating 🍝
+201	47	[36mhas taken right fork 🍴
+201	47	[36mhas taken left fork 🍴
+201	47	[95mis eating 🍝
+201	21	[36mhas taken right fork 🍴
+201	21	[36mhas taken left fork 🍴
+201	21	[95mis eating 🍝
+201	41	[36mhas taken right fork 🍴
+201	41	[36mhas taken left fork 🍴
+201	41	[95mis eating 🍝
+201	34	[36mhas put down right fork 🍴
+201	34	[36mhas put down left fork 🍴
+201	43	[36mhas taken right fork 🍴
+201	43	[36mhas taken left fork 🍴
+201	43	[95mis eating 🍝
+201	34	is sleeping 🌙
+201	33	[36mhas taken left fork 🍴
+201	33	[95mis eating 🍝
+201	51	[36mhas taken right fork 🍴
+201	52	[36mhas taken left fork 🍴
+201	52	[95mis eating 🍝
+201	53	[36mhas put down right fork 🍴
+201	53	[36mhas put down left fork 🍴
+201	53	is sleeping 🌙
+201	1	[36mhas taken right fork 🍴
+201	1	[36mhas taken left fork 🍴
+201	1	[95mis eating 🍝
+201	39	[36mhas taken right fork 🍴
+201	39	[36mhas taken left fork 🍴
+201	39	[95mis eating 🍝
+201	27	[36mhas taken right fork 🍴
+201	27	[36mhas taken left fork 🍴
+201	27	[95mis eating 🍝
+201	17	[36mhas taken right fork 🍴
+201	18	[36mhas put down right fork 🍴
+201	17	[36mhas taken left fork 🍴
+201	17	[95mis eating 🍝
+201	19	[36mhas taken right fork 🍴
+201	19	[36mhas taken left fork 🍴
+201	19	[95mis eating 🍝
+201	18	[36mhas put down left fork 🍴
+201	18	is sleeping 🌙
+201	37	[36mhas taken right fork 🍴
+201	37	[36mhas taken left fork 🍴
+201	37	[95mis eating 🍝
+201	35	[36mhas taken right fork 🍴
+201	35	[36mhas taken left fork 🍴
+201	35	[95mis eating 🍝
+201	29	[36mhas taken right fork 🍴
+201	29	[36mhas taken left fork 🍴
+201	29	[95mis eating 🍝
+301	24	[34mis thinking 💭
+301	42	[34mis thinking 💭
+301	51	[36mhas taken left fork 🍴
+301	51	[95mis eating 🍝
+301	50	[34mis thinking 💭
+301	10	[34mis thinking 💭
+301	38	[34mis thinking 💭
+301	26	[34mis thinking 💭
+301	20	[34mis thinking 💭
+301	52	[36mhas put down right fork 🍴
+301	52	[36mhas put down left fork 🍴
+301	12	[34mis thinking 💭
+301	8	[34mis thinking 💭
+301	52	is sleeping 🌙
+301	53	[34mis thinking 💭
+301	22	[34mis thinking 💭
+301	53	[36mhas taken right fork 🍴
+301	2	[34mis thinking 💭
+301	34	[34mis thinking 💭
+301	4	[34mis thinking 💭
+301	6	[34mis thinking 💭
+301	36	[34mis thinking 💭
+301	32	[34mis thinking 💭
+301	14	[34mis thinking 💭
+301	44	[34mis thinking 💭
+301	48	[34mis thinking 💭
+301	30	[34mis thinking 💭
+301	18	[34mis thinking 💭
+301	27	[36mhas put down right fork 🍴
+301	27	[36mhas put down left fork 🍴
+301	27	is sleeping 🌙
+301	40	[34mis thinking 💭
+301	46	[34mis thinking 💭
+301	16	[34mis thinking 💭
+301	28	[34mis thinking 💭
+301	37	[36mhas put down right fork 🍴
+301	37	[36mhas put down left fork 🍴
+301	37	is sleeping 🌙
+301	19	[36mhas put down right fork 🍴
+301	19	[36mhas put down left fork 🍴
+301	19	is sleeping 🌙
+301	39	[36mhas put down right fork 🍴
+301	39	[36mhas put down left fork 🍴
+301	39	is sleeping 🌙
+301	33	[36mhas put down right fork 🍴
+301	33	[36mhas put down left fork 🍴
+301	33	is sleeping 🌙
+301	25	[36mhas put down right fork 🍴
+301	25	[36mhas put down left fork 🍴
+301	25	is sleeping 🌙
+301	31	[36mhas put down right fork 🍴
+301	31	[36mhas put down left fork 🍴
+301	31	is sleeping 🌙
+301	9	[36mhas put down right fork 🍴
+301	9	[36mhas put down left fork 🍴
+301	9	is sleeping 🌙
+301	7	[36mhas put down right fork 🍴
+301	7	[36mhas put down left fork 🍴
+301	7	is sleeping 🌙
+301	15	[36mhas put down right fork 🍴
+301	15	[36mhas put down left fork 🍴
+301	8	[36mhas taken right fork 🍴
+301	8	[36mhas taken left fork 🍴
+301	8	[95mis eating 🍝
+301	15	is sleeping 🌙
+301	45	[36mhas put down right fork 🍴
+301	45	[36mhas put down left fork 🍴
+301	45	is sleeping 🌙
+301	29	[36mhas put down right fork 🍴
+301	29	[36mhas put down left fork 🍴
+301	29	is sleeping 🌙
+301	35	[36mhas put down right fork 🍴
+301	35	[36mhas put down left fork 🍴
+301	35	is sleeping 🌙
+301	13	[36mhas put down right fork 🍴
+301	13	[36mhas put down left fork 🍴
+301	13	is sleeping 🌙
+301	17	[36mhas put down right fork 🍴
+301	17	[36mhas put down left fork 🍴
+301	17	is sleeping 🌙
+301	3	[36mhas put down right fork 🍴
+301	3	[36mhas put down left fork 🍴
+301	3	is sleeping 🌙
+301	23	[36mhas put down right fork 🍴
+301	23	[36mhas put down left fork 🍴
+301	23	is sleeping 🌙
+301	11	[36mhas put down right fork 🍴
+301	11	[36mhas put down left fork 🍴
+301	12	[36mhas taken right fork 🍴
+301	12	[36mhas taken left fork 🍴
+301	12	[95mis eating 🍝
+301	5	[36mhas put down right fork 🍴
+301	5	[36mhas put down left fork 🍴
+301	11	is sleeping 🌙
+301	5	is sleeping 🌙
+301	41	[36mhas put down right fork 🍴
+301	41	[36mhas put down left fork 🍴
+301	42	[36mhas taken right fork 🍴
+301	49	[36mhas put down right fork 🍴
+301	41	is sleeping 🌙
+301	49	[36mhas put down left fork 🍴
+301	50	[36mhas taken right fork 🍴
+301	21	[36mhas put down right fork 🍴
+301	21	[36mhas put down left fork 🍴
+301	49	is sleeping 🌙
+301	21	is sleeping 🌙
+301	47	[36mhas put down right fork 🍴
+301	47	[36mhas put down left fork 🍴
+301	47	is sleeping 🌙
+301	38	[36mhas taken right fork 🍴
+301	38	[36mhas taken left fork 🍴
+301	38	[95mis eating 🍝
+301	26	[36mhas taken right fork 🍴
+301	26	[36mhas taken left fork 🍴
+301	26	[95mis eating 🍝
+301	10	[36mhas taken right fork 🍴
+301	10	[36mhas taken left fork 🍴
+301	10	[95mis eating 🍝
+301	20	[36mhas taken right fork 🍴
+301	20	[36mhas taken left fork 🍴
+301	20	[95mis eating 🍝
+301	1	[36mhas put down right fork 🍴
+301	1	[36mhas put down left fork 🍴
+301	53	[36mhas taken left fork 🍴
+301	22	[36mhas taken right fork 🍴
+301	24	[36mhas taken right fork 🍴
+301	34	[36mhas taken right fork 🍴
+301	53	[95mis eating 🍝
+301	34	[36mhas taken left fork 🍴
+301	1	is sleeping 🌙
+301	6	[36mhas taken right fork 🍴
+301	6	[36mhas taken left fork 🍴
+301	6	[95mis eating 🍝
+301	34	[95mis eating 🍝
+301	2	[36mhas taken right fork 🍴
+301	32	[36mhas taken right fork 🍴
+301	2	[36mhas taken left fork 🍴
+301	22	[36mhas taken left fork 🍴
+301	14	[36mhas taken right fork 🍴
+301	2	[95mis eating 🍝
+301	14	[36mhas taken left fork 🍴
+301	14	[95mis eating 🍝
+301	22	[95mis eating 🍝
+301	36	[36mhas taken right fork 🍴
+301	48	[36mhas taken right fork 🍴
+301	36	[36mhas taken left fork 🍴
+301	32	[36mhas taken left fork 🍴
+301	32	[95mis eating 🍝
+301	18	[36mhas taken right fork 🍴
+301	4	[36mhas taken right fork 🍴
+301	18	[36mhas taken left fork 🍴
+301	4	[36mhas taken left fork 🍴
+301	24	[36mhas taken left fork 🍴
+301	24	[95mis eating 🍝
+301	46	[36mhas taken right fork 🍴
+301	30	[36mhas taken right fork 🍴
+301	4	[95mis eating 🍝
+301	46	[36mhas taken left fork 🍴
+301	46	[95mis eating 🍝
+301	30	[36mhas taken left fork 🍴
+301	30	[95mis eating 🍝
+301	40	[36mhas taken right fork 🍴
+301	16	[36mhas taken right fork 🍴
+301	40	[36mhas taken left fork 🍴
+301	18	[95mis eating 🍝
+301	40	[95mis eating 🍝
+301	43	[36mhas put down right fork 🍴
+301	42	[36mhas taken left fork 🍴
+301	42	[95mis eating 🍝
+301	48	[36mhas taken left fork 🍴
+301	28	[36mhas taken right fork 🍴
+301	48	[95mis eating 🍝
+301	28	[36mhas taken left fork 🍴
+301	16	[36mhas taken left fork 🍴
+301	16	[95mis eating 🍝
+301	28	[95mis eating 🍝
+301	43	[36mhas put down left fork 🍴
+301	36	[95mis eating 🍝
+301	43	is sleeping 🌙
+301	44	[36mhas taken right fork 🍴
+301	44	[36mhas taken left fork 🍴
+301	44	[95mis eating 🍝
+401	49	[34mis thinking 💭
+401	19	[34mis thinking 💭
+401	27	[34mis thinking 💭
+401	35	[34mis thinking 💭
+401	51	[36mhas put down right fork 🍴
+401	1	[34mis thinking 💭
+401	45	[34mis thinking 💭
+401	31	[34mis thinking 💭
+401	21	[34mis thinking 💭
+401	3	[34mis thinking 💭
+401	29	[34mis thinking 💭
+401	39	[34mis thinking 💭
+401	17	[34mis thinking 💭
+401	50	[36mhas taken left fork 🍴
+401	33	[34mis thinking 💭
+401	50	[95mis eating 🍝
+401	37	[34mis thinking 💭
+401	11	[34mis thinking 💭
+401	9	[34mis thinking 💭
+401	25	[34mis thinking 💭
+401	23	[34mis thinking 💭
+401	5	[34mis thinking 💭
+401	43	[34mis thinking 💭
+401	13	[34mis thinking 💭
+401	15	[34mis thinking 💭
+401	51	[36mhas put down left fork 🍴
+401	51	is sleeping 🌙
+401	7	[34mis thinking 💭
+401	47	[34mis thinking 💭
+401	41	[34mis thinking 💭
+401	52	[34mis thinking 💭
+401	34	[36mhas put down right fork 🍴
+401	34	[36mhas put down left fork 🍴
+401	34	is sleeping 🌙
+401	38	[36mhas put down right fork 🍴
+401	38	[36mhas put down left fork 🍴
+401	38	is sleeping 🌙
+401	4	[36mhas put down right fork 🍴
+401	4	[36mhas put down left fork 🍴
+401	4	is sleeping 🌙
+401	20	[36mhas put down right fork 🍴
+401	20	[36mhas put down left fork 🍴
+401	20	is sleeping 🌙
+401	48	[36mhas put down right fork 🍴
+401	48	[36mhas put down left fork 🍴
+401	48	is sleeping 🌙
+401	49	[36mhas taken right fork 🍴
+401	16	[36mhas put down right fork 🍴
+401	16	[36mhas put down left fork 🍴
+401	16	is sleeping 🌙
+401	35	[36mhas taken right fork 🍴
+401	12	[36mhas put down right fork 🍴
+401	12	[36mhas put down left fork 🍴
+401	12	is sleeping 🌙
+401	53	[36mhas put down right fork 🍴
+401	53	[36mhas put down left fork 🍴
+401	53	is sleeping 🌙
+401	30	[36mhas put down right fork 🍴
+401	30	[36mhas put down left fork 🍴
+401	30	is sleeping 🌙
+401	36	[36mhas put down right fork 🍴
+401	36	[36mhas put down left fork 🍴
+401	36	is sleeping 🌙
+401	35	[36mhas taken left fork 🍴
+401	35	[95mis eating 🍝
+401	18	[36mhas put down right fork 🍴
+401	18	[36mhas put down left fork 🍴
+401	19	[36mhas taken right fork 🍴
+401	19	[36mhas taken left fork 🍴
+401	19	[95mis eating 🍝
+401	2	[36mhas put down right fork 🍴
+401	2	[36mhas put down left fork 🍴
+401	2	is sleeping 🌙
+401	18	is sleeping 🌙
+401	26	[36mhas put down right fork 🍴
+401	26	[36mhas put down left fork 🍴
+401	26	is sleeping 🌙
+401	27	[36mhas taken right fork 🍴
+401	10	[36mhas put down right fork 🍴
+401	10	[36mhas put down left fork 🍴
+401	10	is sleeping 🌙
+401	22	[36mhas put down right fork 🍴
+401	22	[36mhas put down left fork 🍴
+401	22	is sleeping 🌙
+401	1	[36mhas taken right fork 🍴
+401	1	[36mhas taken left fork 🍴
+401	1	[95mis eating 🍝
+401	32	[36mhas put down right fork 🍴
+401	32	[36mhas put down left fork 🍴
+401	32	is sleeping 🌙
+401	24	[36mhas put down right fork 🍴
+401	24	[36mhas put down left fork 🍴
+401	24	is sleeping 🌙
+401	14	[36mhas put down right fork 🍴
+401	14	[36mhas put down left fork 🍴
+401	14	is sleeping 🌙
+401	31	[36mhas taken right fork 🍴
+401	31	[36mhas taken left fork 🍴
+401	31	[95mis eating 🍝
+401	46	[36mhas put down right fork 🍴
+401	46	[36mhas put down left fork 🍴
+401	46	is sleeping 🌙
+401	21	[36mhas taken right fork 🍴
+401	21	[36mhas taken left fork 🍴
+401	21	[95mis eating 🍝
+401	42	[36mhas put down right fork 🍴
+401	42	[36mhas put down left fork 🍴
+401	42	is sleeping 🌙
+401	44	[36mhas put down right fork 🍴
+401	44	[36mhas put down left fork 🍴
+401	45	[36mhas taken right fork 🍴
+401	8	[36mhas put down right fork 🍴
+401	8	[36mhas put down left fork 🍴
+401	44	is sleeping 🌙
+401	45	[36mhas taken left fork 🍴
+401	3	[36mhas taken right fork 🍴
+401	3	[36mhas taken left fork 🍴
+401	3	[95mis eating 🍝
+401	8	is sleeping 🌙
+401	45	[95mis eating 🍝
+401	40	[36mhas put down right fork 🍴
+401	40	[36mhas put down left fork 🍴
+401	40	is sleeping 🌙
+401	6	[36mhas put down right fork 🍴
+401	6	[36mhas put down left fork 🍴
+401	6	is sleeping 🌙
+401	39	[36mhas taken right fork 🍴
+401	39	[36mhas taken left fork 🍴
+401	39	[95mis eating 🍝
+401	17	[36mhas taken right fork 🍴
+401	17	[36mhas taken left fork 🍴
+401	17	[95mis eating 🍝
+401	28	[36mhas put down right fork 🍴
+401	27	[36mhas taken left fork 🍴
+401	27	[95mis eating 🍝
+401	29	[36mhas taken right fork 🍴
+401	29	[36mhas taken left fork 🍴
+401	29	[95mis eating 🍝
+401	28	[36mhas put down left fork 🍴
+401	28	is sleeping 🌙
+401	33	[36mhas taken right fork 🍴
+401	33	[36mhas taken left fork 🍴
+401	33	[95mis eating 🍝
+401	37	[36mhas taken right fork 🍴
+401	37	[36mhas taken left fork 🍴
+401	37	[95mis eating 🍝
+401	11	[36mhas taken right fork 🍴
+401	11	[36mhas taken left fork 🍴
+401	11	[95mis eating 🍝
+401	25	[36mhas taken right fork 🍴
+401	23	[36mhas taken right fork 🍴
+401	23	[36mhas taken left fork 🍴
+401	25	[36mhas taken left fork 🍴
+401	43	[36mhas taken right fork 🍴
+401	25	[95mis eating 🍝
+401	23	[95mis eating 🍝
+401	13	[36mhas taken right fork 🍴
+401	15	[36mhas taken right fork 🍴
+401	15	[36mhas taken left fork 🍴
+401	15	[95mis eating 🍝
+401	47	[36mhas taken right fork 🍴
+401	5	[36mhas taken right fork 🍴
+401	47	[36mhas taken left fork 🍴
+401	7	[36mhas taken right fork 🍴
+401	9	[36mhas taken right fork 🍴
+401	9	[36mhas taken left fork 🍴
+401	52	[36mhas taken right fork 🍴
+401	5	[36mhas taken left fork 🍴
+401	52	[36mhas taken left fork 🍴
+401	13	[36mhas taken left fork 🍴
+401	13	[95mis eating 🍝
+401	52	[95mis eating 🍝
+401	47	[95mis eating 🍝
+401	5	[95mis eating 🍝
+401	9	[95mis eating 🍝
+401	41	[36mhas taken right fork 🍴
+401	41	[36mhas taken left fork 🍴
+401	41	[95mis eating 🍝
+401	7	[36mhas taken left fork 🍴
+401	7	[95mis eating 🍝
+401	43	[36mhas taken left fork 🍴
+401	43	[95mis eating 🍝
+501	2	[34mis thinking 💭
+501	22	[34mis thinking 💭
+501	38	[34mis thinking 💭
+501	49	[36mhas taken left fork 🍴
+501	46	[34mis thinking 💭
+501	12	[34mis thinking 💭
+501	50	[36mhas put down right fork 🍴
+501	42	[34mis thinking 💭
+501	44	[34mis thinking 💭
+501	36	[34mis thinking 💭
+501	18	[34mis thinking 💭
+501	10	[34mis thinking 💭
+501	14	[34mis thinking 💭
+501	49	[95mis eating 🍝
+501	30	[34mis thinking 💭
+501	28	[34mis thinking 💭
+501	53	[34mis thinking 💭
+501	26	[34mis thinking 💭
+501	16	[34mis thinking 💭
+501	6	[34mis thinking 💭
+501	50	[36mhas put down left fork 🍴
+501	50	is sleeping 🌙
+501	29	[36mhas put down right fork 🍴
+501	24	[34mis thinking 💭
+501	48	[34mis thinking 💭
+501	20	[34mis thinking 💭
+501	8	[34mis thinking 💭
+501	4	[34mis thinking 💭
+501	40	[34mis thinking 💭
+501	32	[34mis thinking 💭
+501	34	[34mis thinking 💭
+501	51	[34mis thinking 💭
+501	29	[36mhas put down left fork 🍴
+501	29	is sleeping 🌙
+501	11	[36mhas put down right fork 🍴
+501	11	[36mhas put down left fork 🍴
+501	11	is sleeping 🌙
+501	15	[36mhas put down right fork 🍴
+501	15	[36mhas put down left fork 🍴
+501	15	is sleeping 🌙
+501	43	[36mhas put down right fork 🍴
+501	43	[36mhas put down left fork 🍴
+501	43	is sleeping 🌙
+501	33	[36mhas put down right fork 🍴
+501	33	[36mhas put down left fork 🍴
+501	33	is sleeping 🌙
+501	25	[36mhas put down right fork 🍴
+501	25	[36mhas put down left fork 🍴
+501	25	is sleeping 🌙
+501	27	[36mhas put down right fork 🍴
+501	27	[36mhas put down left fork 🍴
+501	27	is sleeping 🌙
+501	39	[36mhas put down right fork 🍴
+501	39	[36mhas put down left fork 🍴
+501	39	is sleeping 🌙
+501	1	[36mhas put down right fork 🍴
+501	1	[36mhas put down left fork 🍴
+501	1	is sleeping 🌙
+501	2	[36mhas taken right fork 🍴
+501	21	[36mhas put down right fork 🍴
+501	21	[36mhas put down left fork 🍴
+501	22	[36mhas taken right fork 🍴
+501	37	[36mhas put down right fork 🍴
+501	21	is sleeping 🌙
+501	37	[36mhas put down left fork 🍴
+501	38	[36mhas taken right fork 🍴
+501	37	is sleeping 🌙
+501	7	[36mhas put down right fork 🍴
+501	7	[36mhas put down left fork 🍴
+501	38	[36mhas taken left fork 🍴
+501	38	[95mis eating 🍝
+501	7	is sleeping 🌙
+501	3	[36mhas put down right fork 🍴
+501	3	[36mhas put down left fork 🍴
+501	2	[36mhas taken left fork 🍴
+501	2	[95mis eating 🍝
+501	3	is sleeping 🌙
+501	17	[36mhas put down right fork 🍴
+501	17	[36mhas put down left fork 🍴
+501	17	is sleeping 🌙
+501	5	[36mhas put down right fork 🍴
+501	5	[36mhas put down left fork 🍴
+501	5	is sleeping 🌙
+501	45	[36mhas put down right fork 🍴
+501	45	[36mhas put down left fork 🍴
+501	46	[36mhas taken right fork 🍴
+501	45	is sleeping 🌙
+501	12	[36mhas taken right fork 🍴
+501	9	[36mhas put down right fork 🍴
+501	9	[36mhas put down left fork 🍴
+501	9	is sleeping 🌙
+501	52	[36mhas put down right fork 🍴
+501	52	[36mhas put down left fork 🍴
+501	52	is sleeping 🌙
+501	35	[36mhas put down right fork 🍴
+501	35	[36mhas put down left fork 🍴
+501	35	is sleeping 🌙
+501	19	[36mhas put down right fork 🍴
+501	19	[36mhas put down left fork 🍴
+501	19	is sleeping 🌙
+501	44	[36mhas taken right fork 🍴
+501	44	[36mhas taken left fork 🍴
+501	44	[95mis eating 🍝
+501	31	[36mhas put down right fork 🍴
+501	31	[36mhas put down left fork 🍴
+501	31	is sleeping 🌙
+501	23	[36mhas put down right fork 🍴
+501	23	[36mhas put down left fork 🍴
+501	22	[36mhas taken left fork 🍴
+501	22	[95mis eating 🍝
+501	23	is sleeping 🌙
+501	13	[36mhas put down right fork 🍴
+501	13	[36mhas put down left fork 🍴
+501	13	is sleeping 🌙
+501	12	[36mhas taken left fork 🍴
+501	12	[95mis eating 🍝
+501	36	[36mhas taken right fork 🍴
+501	36	[36mhas taken left fork 🍴
+501	36	[95mis eating 🍝
+501	41	[36mhas put down right fork 🍴
+501	41	[36mhas put down left fork 🍴
+501	41	is sleeping 🌙
+501	42	[36mhas taken right fork 🍴
+501	42	[36mhas taken left fork 🍴
+501	42	[95mis eating 🍝
+501	18	[36mhas taken right fork 🍴
+501	18	[36mhas taken left fork 🍴
+501	18	[95mis eating 🍝
+501	47	[36mhas put down right fork 🍴
+501	47	[36mhas put down left fork 🍴
+501	46	[36mhas taken left fork 🍴
+501	46	[95mis eating 🍝
+501	47	is sleeping 🌙
+501	10	[36mhas taken right fork 🍴
+501	10	[36mhas taken left fork 🍴
+501	10	[95mis eating 🍝
+501	30	[36mhas taken right fork 🍴
+501	30	[36mhas taken left fork 🍴
+501	30	[95mis eating 🍝
+501	14	[36mhas taken right fork 🍴
+501	14	[36mhas taken left fork 🍴
+501	14	[95mis eating 🍝
+501	28	[36mhas taken right fork 🍴
+501	28	[36mhas taken left fork 🍴
+501	28	[95mis eating 🍝
+501	53	[36mhas taken right fork 🍴
+501	53	[36mhas taken left fork 🍴
+501	53	[95mis eating 🍝
+501	26	[36mhas taken right fork 🍴
+501	26	[36mhas taken left fork 🍴
+501	26	[95mis eating 🍝
+501	16	[36mhas taken right fork 🍴
+501	16	[36mhas taken left fork 🍴
+501	16	[95mis eating 🍝
+501	6	[36mhas taken right fork 🍴
+501	6	[36mhas taken left fork 🍴
+501	6	[95mis eating 🍝
+501	24	[36mhas taken right fork 🍴
+501	24	[36mhas taken left fork 🍴
+501	24	[95mis eating 🍝
+501	20	[36mhas taken right fork 🍴
+501	20	[36mhas taken left fork 🍴
+501	20	[95mis eating 🍝
+501	4	[36mhas taken right fork 🍴
+501	4	[36mhas taken left fork 🍴
+501	51	[36mhas taken right fork 🍴
+501	4	[95mis eating 🍝
+501	51	[36mhas taken left fork 🍴
+501	8	[36mhas taken right fork 🍴
+501	51	[95mis eating 🍝
+501	34	[36mhas taken right fork 🍴
+501	34	[36mhas taken left fork 🍴
+501	34	[95mis eating 🍝
+501	32	[36mhas taken right fork 🍴
+501	48	[36mhas taken right fork 🍴
+501	40	[36mhas taken right fork 🍴
+501	40	[36mhas taken left fork 🍴
+501	40	[95mis eating 🍝
+501	32	[36mhas taken left fork 🍴
+501	32	[95mis eating 🍝
+501	8	[36mhas taken left fork 🍴
+501	8	[95mis eating 🍝
+601	31	[34mis thinking 💭
+601	24	[36mhas put down right fork 🍴
+601	24	[36mhas put down left fork 🍴
+601	21	[34mis thinking 💭
+601	11	[34mis thinking 💭
+601	34	[36mhas put down right fork 🍴
+601	41	[34mis thinking 💭
+601	9	[34mis thinking 💭
+601	13	[34mis thinking 💭
+601	37	[34mis thinking 💭
+601	3	[34mis thinking 💭
+601	39	[34mis thinking 💭
+601	15	[34mis thinking 💭
+601	23	[34mis thinking 💭
+601	27	[34mis thinking 💭
+601	7	[34mis thinking 💭
+601	5	[34mis thinking 💭
+601	25	[34mis thinking 💭
+601	50	[34mis thinking 💭
+601	19	[34mis thinking 💭
+601	24	is sleeping 🌙
+601	47	[34mis thinking 💭
+601	1	[34mis thinking 💭
+601	29	[34mis thinking 💭
+601	17	[34mis thinking 💭
+601	34	[36mhas put down left fork 🍴
+601	52	[34mis thinking 💭
+601	33	[34mis thinking 💭
+601	45	[34mis thinking 💭
+601	35	[34mis thinking 💭
+601	43	[34mis thinking 💭
+601	42	[36mhas put down right fork 🍴
+601	42	[36mhas put down left fork 🍴
+601	34	is sleeping 🌙
+601	42	is sleeping 🌙
+601	8	[36mhas put down right fork 🍴
+601	8	[36mhas put down left fork 🍴
+601	43	[36mhas taken right fork 🍴
+601	8	is sleeping 🌙
+601	51	[36mhas put down right fork 🍴
+601	51	[36mhas put down left fork 🍴
+601	10	[36mhas put down right fork 🍴
+601	51	is sleeping 🌙
+601	10	[36mhas put down left fork 🍴
+601	26	[36mhas put down right fork 🍴
+601	26	[36mhas put down left fork 🍴
+601	10	is sleeping 🌙
+601	26	is sleeping 🌙
+601	53	[36mhas put down right fork 🍴
+601	53	[36mhas put down left fork 🍴
+601	11	[36mhas taken right fork 🍴
+601	53	is sleeping 🌙
+601	46	[36mhas put down right fork 🍴
+601	46	[36mhas put down left fork 🍴
+601	46	is sleeping 🌙
+601	2	[36mhas put down right fork 🍴
+601	2	[36mhas put down left fork 🍴
+601	2	is sleeping 🌙
+601	36	[36mhas put down right fork 🍴
+601	36	[36mhas put down left fork 🍴
+601	36	is sleeping 🌙
+601	37	[36mhas taken right fork 🍴
+601	3	[36mhas taken right fork 🍴
+601	18	[36mhas put down right fork 🍴
+601	18	[36mhas put down left fork 🍴
+601	18	is sleeping 🌙
+601	6	[36mhas put down right fork 🍴
+601	6	[36mhas put down left fork 🍴
+601	6	is sleeping 🌙
+601	20	[36mhas put down right fork 🍴
+601	20	[36mhas put down left fork 🍴
+601	20	is sleeping 🌙
+601	21	[36mhas taken right fork 🍴
+601	32	[36mhas put down right fork 🍴
+601	32	[36mhas put down left fork 🍴
+601	32	is sleeping 🌙
+601	33	[36mhas taken right fork 🍴
+601	33	[36mhas taken left fork 🍴
+601	33	[95mis eating 🍝
+601	22	[36mhas put down right fork 🍴
+601	22	[36mhas put down left fork 🍴
+601	21	[36mhas taken left fork 🍴
+601	21	[95mis eating 🍝
+601	22	is sleeping 🌙
+601	38	[36mhas put down right fork 🍴
+601	37	[36mhas taken left fork 🍴
+601	37	[95mis eating 🍝
+601	38	[36mhas put down left fork 🍴
+601	39	[36mhas taken right fork 🍴
+601	14	[36mhas put down right fork 🍴
+601	14	[36mhas put down left fork 🍴
+601	38	is sleeping 🌙
+601	14	is sleeping 🌙
+601	15	[36mhas taken right fork 🍴
+601	4	[36mhas put down right fork 🍴
+601	4	[36mhas put down left fork 🍴
+601	3	[36mhas taken left fork 🍴
+601	3	[95mis eating 🍝
+601	4	is sleeping 🌙
+601	23	[36mhas taken right fork 🍴
+601	23	[36mhas taken left fork 🍴
+601	23	[95mis eating 🍝
+601	27	[36mhas taken right fork 🍴
+601	49	[36mhas put down right fork 🍴
+601	49	[36mhas put down left fork 🍴
+601	48	[36mhas taken left fork 🍴
+601	48	[95mis eating 🍝
+601	49	is sleeping 🌙
+601	30	[36mhas put down right fork 🍴
+601	30	[36mhas put down left fork 🍴
+601	31	[36mhas taken right fork 🍴
+601	31	[36mhas taken left fork 🍴
+601	31	[95mis eating 🍝
+601	30	is sleeping 🌙
+601	44	[36mhas put down right fork 🍴
+601	43	[36mhas taken left fork 🍴
+601	43	[95mis eating 🍝
+601	45	[36mhas taken right fork 🍴
+601	45	[36mhas taken left fork 🍴
+601	45	[95mis eating 🍝
+601	44	[36mhas put down left fork 🍴
+601	44	is sleeping 🌙
+601	7	[36mhas taken right fork 🍴
+601	7	[36mhas taken left fork 🍴
+601	7	[95mis eating 🍝
+601	5	[36mhas taken right fork 🍴
+601	5	[36mhas taken left fork 🍴
+601	5	[95mis eating 🍝
+601	25	[36mhas taken right fork 🍴
+601	25	[36mhas taken left fork 🍴
+601	25	[95mis eating 🍝
+601	50	[36mhas taken right fork 🍴
+601	50	[36mhas taken left fork 🍴
+601	50	[95mis eating 🍝
+601	19	[36mhas taken right fork 🍴
+601	19	[36mhas taken left fork 🍴
+601	19	[95mis eating 🍝
+601	47	[36mhas taken right fork 🍴
+601	1	[36mhas taken right fork 🍴
+601	1	[36mhas taken left fork 🍴
+601	1	[95mis eating 🍝
+601	52	[36mhas taken right fork 🍴
+601	52	[36mhas taken left fork 🍴
+601	52	[95mis eating 🍝
+601	35	[36mhas taken right fork 🍴
+601	35	[36mhas taken left fork 🍴
+601	35	[95mis eating 🍝
+601	40	[36mhas put down right fork 🍴
+601	39	[36mhas taken left fork 🍴
+601	39	[95mis eating 🍝
+601	40	[36mhas put down left fork 🍴
+601	41	[36mhas taken right fork 🍴
+601	41	[36mhas taken left fork 🍴
+601	41	[95mis eating 🍝
+601	40	is sleeping 🌙
+601	16	[36mhas put down right fork 🍴
+601	15	[36mhas taken left fork 🍴
+601	15	[95mis eating 🍝
+601	17	[36mhas taken right fork 🍴
+601	17	[36mhas taken left fork 🍴
+601	17	[95mis eating 🍝
+601	16	[36mhas put down left fork 🍴
+601	16	is sleeping 🌙
+601	28	[36mhas put down right fork 🍴
+601	27	[36mhas taken left fork 🍴
+601	27	[95mis eating 🍝
+601	29	[36mhas taken right fork 🍴
+601	29	[36mhas taken left fork 🍴
+601	29	[95mis eating 🍝
+601	28	[36mhas put down left fork 🍴
+601	28	is sleeping 🌙
+601	9	[36mhas taken right fork 🍴
+601	9	[36mhas taken left fork 🍴
+601	9	[95mis eating 🍝
+601	12	[36mhas put down right fork 🍴
+601	12	[36mhas put down left fork 🍴
+601	11	[36mhas taken left fork 🍴
+601	12	is sleeping 🌙
+601	11	[95mis eating 🍝
+601	13	[36mhas taken right fork 🍴
+601	13	[36mhas taken left fork 🍴
+601	13	[95mis eating 🍝
+701	40	[34mis thinking 💭
+701	34	[34mis thinking 💭
+701	4	[34mis thinking 💭
+701	18	[34mis thinking 💭
+701	36	[34mis thinking 💭
+701	53	[34mis thinking 💭
+701	30	[34mis thinking 💭
+701	8	[34mis thinking 💭
+701	10	[34mis thinking 💭
+701	46	[34mis thinking 💭
+701	49	[34mis thinking 💭
+701	20	[34mis thinking 💭
+701	16	[34mis thinking 💭
+701	28	[34mis thinking 💭
+701	51	[34mis thinking 💭
+701	42	[34mis thinking 💭
+701	24	[34mis thinking 💭
+701	12	[34mis thinking 💭
+701	27	[36mhas put down right fork 🍴
+701	27	[36mhas put down left fork 🍴
+701	26	[34mis thinking 💭
+701	27	is sleeping 🌙
+701	2	[34mis thinking 💭
+701	50	[36mhas put down right fork 🍴
+701	50	[36mhas put down left fork 🍴
+701	5	[36mhas put down right fork 🍴
+701	5	[36mhas put down left fork 🍴
+701	50	is sleeping 🌙
+701	5	is sleeping 🌙
+701	3	[36mhas put down right fork 🍴
+701	3	[36mhas put down left fork 🍴
+701	3	is sleeping 🌙
+701	41	[36mhas put down right fork 🍴
+701	41	[36mhas put down left fork 🍴
+701	41	is sleeping 🌙
+701	4	[36mhas taken right fork 🍴
+701	4	[36mhas taken left fork 🍴
+701	4	[95mis eating 🍝
+701	32	[34mis thinking 💭
+701	39	[36mhas put down right fork 🍴
+701	39	[36mhas put down left fork 🍴
+701	31	[36mhas put down right fork 🍴
+701	31	[36mhas put down left fork 🍴
+701	40	[36mhas taken right fork 🍴
+701	40	[36mhas taken left fork 🍴
+701	40	[95mis eating 🍝
+701	31	is sleeping 🌙
+701	39	is sleeping 🌙
+701	44	[34mis thinking 💭
+701	6	[34mis thinking 💭
+701	23	[36mhas put down right fork 🍴
+701	14	[34mis thinking 💭
+701	22	[34mis thinking 💭
+701	38	[34mis thinking 💭
+701	23	[36mhas put down left fork 🍴
+701	23	is sleeping 🌙
+701	21	[36mhas put down right fork 🍴
+701	21	[36mhas put down left fork 🍴
+701	21	is sleeping 🌙
+701	25	[36mhas put down right fork 🍴
+701	25	[36mhas put down left fork 🍴
+701	25	is sleeping 🌙
+701	26	[36mhas taken right fork 🍴
+701	26	[36mhas taken left fork 🍴
+701	26	[95mis eating 🍝
+701	7	[36mhas put down right fork 🍴
+701	7	[36mhas put down left fork 🍴
+701	7	is sleeping 🌙
+701	19	[36mhas put down right fork 🍴
+701	19	[36mhas put down left fork 🍴
+701	19	is sleeping 🌙
+701	8	[36mhas taken right fork 🍴
+701	52	[36mhas put down right fork 🍴
+701	52	[36mhas put down left fork 🍴
+701	52	is sleeping 🌙
+701	45	[36mhas put down right fork 🍴
+701	45	[36mhas put down left fork 🍴
+701	45	is sleeping 🌙
+701	15	[36mhas put down right fork 🍴
+701	15	[36mhas put down left fork 🍴
+701	15	is sleeping 🌙
+701	29	[36mhas put down right fork 🍴
+701	29	[36mhas put down left fork 🍴
+701	29	is sleeping 🌙
+701	30	[36mhas taken right fork 🍴
+701	30	[36mhas taken left fork 🍴
+701	30	[95mis eating 🍝
+701	46	[36mhas taken right fork 🍴
+701	20	[36mhas taken right fork 🍴
+701	20	[36mhas taken left fork 🍴
+701	20	[95mis eating 🍝
+701	16	[36mhas taken right fork 🍴
+701	28	[36mhas taken right fork 🍴
+701	28	[36mhas taken left fork 🍴
+701	28	[95mis eating 🍝
+701	51	[36mhas taken right fork 🍴
+701	51	[36mhas taken left fork 🍴
+701	51	[95mis eating 🍝
+701	42	[36mhas taken right fork 🍴
+701	24	[36mhas taken right fork 🍴
+701	24	[36mhas taken left fork 🍴
+701	24	[95mis eating 🍝
+701	43	[36mhas put down right fork 🍴
+701	43	[36mhas put down left fork 🍴
+701	42	[36mhas taken left fork 🍴
+701	42	[95mis eating 🍝
+701	43	is sleeping 🌙
+701	32	[36mhas taken right fork 🍴
+701	48	[36mhas put down right fork 🍴
+701	53	[36mhas taken right fork 🍴
+701	48	[36mhas put down left fork 🍴
+701	47	[36mhas taken left fork 🍴
+701	47	[95mis eating 🍝
+701	49	[36mhas taken right fork 🍴
+701	16	[36mhas taken left fork 🍴
+701	17	[36mhas put down right fork 🍴
+701	16	[95mis eating 🍝
+701	48	is sleeping 🌙
+701	49	[36mhas taken left fork 🍴
+701	49	[95mis eating 🍝
+701	17	[36mhas put down left fork 🍴
+701	18	[36mhas taken right fork 🍴
+701	18	[36mhas taken left fork 🍴
+701	9	[36mhas put down right fork 🍴
+701	8	[36mhas taken left fork 🍴
+701	9	[36mhas put down left fork 🍴
+701	10	[36mhas taken right fork 🍴
+701	17	is sleeping 🌙
+701	9	is sleeping 🌙
+701	18	[95mis eating 🍝
+701	8	[95mis eating 🍝
+701	6	[36mhas taken right fork 🍴
+701	6	[36mhas taken left fork 🍴
+701	6	[95mis eating 🍝
+701	35	[36mhas put down right fork 🍴
+701	35	[36mhas put down left fork 🍴
+701	36	[36mhas taken right fork 🍴
+701	35	is sleeping 🌙
+701	22	[36mhas taken right fork 🍴
+701	22	[36mhas taken left fork 🍴
+701	22	[95mis eating 🍝
+701	37	[36mhas put down right fork 🍴
+701	36	[36mhas taken left fork 🍴
+701	38	[36mhas taken right fork 🍴
+701	38	[36mhas taken left fork 🍴
+701	38	[95mis eating 🍝
+701	37	[36mhas put down left fork 🍴
+701	36	[95mis eating 🍝
+701	37	is sleeping 🌙
+701	13	[36mhas put down right fork 🍴
+701	13	[36mhas put down left fork 🍴
+701	14	[36mhas taken right fork 🍴
+701	11	[36mhas put down right fork 🍴
+701	10	[36mhas taken left fork 🍴
+701	10	[95mis eating 🍝
+701	11	[36mhas put down left fork 🍴
+701	14	[36mhas taken left fork 🍴
+701	11	is sleeping 🌙
+701	14	[95mis eating 🍝
+701	13	is sleeping 🌙
+701	53	[36mhas taken left fork 🍴
+701	53	[95mis eating 🍝
+701	1	[36mhas put down right fork 🍴
+701	12	[36mhas taken right fork 🍴
+701	2	[36mhas taken right fork 🍴
+701	2	[36mhas taken left fork 🍴
+701	2	[95mis eating 🍝
+701	1	[36mhas put down left fork 🍴
+701	12	[36mhas taken left fork 🍴
+701	33	[36mhas put down right fork 🍴
+701	12	[95mis eating 🍝
+701	32	[36mhas taken left fork 🍴
+701	32	[95mis eating 🍝
+701	33	[36mhas put down left fork 🍴
+701	1	is sleeping 🌙
+701	33	is sleeping 🌙
+701	34	[36mhas taken right fork 🍴
+701	34	[36mhas taken left fork 🍴
+701	34	[95mis eating 🍝
+701	44	[36mhas taken right fork 🍴
+701	44	[36mhas taken left fork 🍴
+701	44	[95mis eating 🍝
+801	33	[34mis thinking 💭
+801	50	[34mis thinking 💭
+801	25	[34mis thinking 💭
+801	5	[34mis thinking 💭
+801	45	[34mis thinking 💭
+801	52	[34mis thinking 💭
+801	17	[34mis thinking 💭
+801	35	[34mis thinking 💭
+801	48	[34mis thinking 💭
+801	19	[34mis thinking 💭
+801	27	[34mis thinking 💭
+801	7	[34mis thinking 💭
+801	39	[34mis thinking 💭
+801	43	[34mis thinking 💭
+801	1	[34mis thinking 💭
+801	41	[34mis thinking 💭
+801	21	[34mis thinking 💭
+801	31	[34mis thinking 💭
+801	15	[34mis thinking 💭
+801	37	[34mis thinking 💭
+801	20	[36mhas put down right fork 🍴
+801	20	[36mhas put down left fork 🍴
+801	20	is sleeping 🌙
+801	11	[34mis thinking 💭
+801	47	[36mhas put down right fork 🍴
+801	47	[36mhas put down left fork 🍴
+801	9	[34mis thinking 💭
+801	29	[34mis thinking 💭
+801	46	[36mhas taken left fork 🍴
+801	46	[95mis eating 🍝
+801	3	[34mis thinking 💭
+801	23	[34mis thinking 💭
+801	13	[34mis thinking 💭
+801	10	[36mhas put down right fork 🍴
+801	10	[36mhas put down left fork 🍴
+801	10	is sleeping 🌙
+801	47	is sleeping 🌙
+801	42	[36mhas put down right fork 🍴
+801	42	[36mhas put down left fork 🍴
+801	42	is sleeping 🌙
+801	12	[36mhas put down right fork 🍴
+801	12	[36mhas put down left fork 🍴
+801	12	is sleeping 🌙
+801	22	[36mhas put down right fork 🍴
+801	22	[36mhas put down left fork 🍴
+801	22	is sleeping 🌙
+801	2	[36mhas put down right fork 🍴
+801	2	[36mhas put down left fork 🍴
+801	2	is sleeping 🌙
+801	26	[36mhas put down right fork 🍴
+801	26	[36mhas put down left fork 🍴
+801	26	is sleeping 🌙
+801	44	[36mhas put down right fork 🍴
+801	44	[36mhas put down left fork 🍴
+801	45	[36mhas taken right fork 🍴
+801	24	[36mhas put down right fork 🍴
+801	44	is sleeping 🌙
+801	24	[36mhas put down left fork 🍴
+801	25	[36mhas taken right fork 🍴
+801	25	[36mhas taken left fork 🍴
+801	25	[95mis eating 🍝
+801	24	is sleeping 🌙
+801	48	[36mhas taken right fork 🍴
+801	6	[36mhas put down right fork 🍴
+801	6	[36mhas put down left fork 🍴
+801	6	is sleeping 🌙
+801	28	[36mhas put down right fork 🍴
+801	28	[36mhas put down left fork 🍴
+801	28	is sleeping 🌙
+801	51	[36mhas put down right fork 🍴
+801	51	[36mhas put down left fork 🍴
+801	51	is sleeping 🌙
+801	30	[36mhas put down right fork 🍴
+801	30	[36mhas put down left fork 🍴
+801	52	[36mhas taken right fork 🍴
+801	16	[36mhas put down right fork 🍴
+801	30	is sleeping 🌙
+801	16	[36mhas put down left fork 🍴
+801	16	is sleeping 🌙
+801	17	[36mhas taken right fork 🍴
+801	14	[36mhas put down right fork 🍴
+801	14	[36mhas put down left fork 🍴
+801	14	is sleeping 🌙
+801	34	[36mhas put down right fork 🍴
+801	34	[36mhas put down left fork 🍴
+801	34	is sleeping 🌙
+801	35	[36mhas taken right fork 🍴
+801	27	[36mhas taken right fork 🍴
+801	27	[36mhas taken left fork 🍴
+801	27	[95mis eating 🍝
+801	7	[36mhas taken right fork 🍴
+801	53	[36mhas put down right fork 🍴
+801	53	[36mhas put down left fork 🍴
+801	52	[36mhas taken left fork 🍴
+801	52	[95mis eating 🍝
+801	53	is sleeping 🌙
+801	8	[36mhas put down right fork 🍴
+801	8	[36mhas put down left fork 🍴
+801	7	[36mhas taken left fork 🍴
+801	7	[95mis eating 🍝
+801	49	[36mhas put down right fork 🍴
+801	48	[36mhas taken left fork 🍴
+801	48	[95mis eating 🍝
+801	8	is sleeping 🌙
+801	50	[36mhas taken right fork 🍴
+801	50	[36mhas taken left fork 🍴
+801	50	[95mis eating 🍝
+801	49	[36mhas put down left fork 🍴
+801	49	is sleeping 🌙
+801	18	[36mhas put down right fork 🍴
+801	17	[36mhas taken left fork 🍴
+801	17	[95mis eating 🍝
+801	18	[36mhas put down left fork 🍴
+801	19	[36mhas taken right fork 🍴
+801	19	[36mhas taken left fork 🍴
+801	18	is sleeping 🌙
+801	19	[95mis eating 🍝
+801	38	[36mhas put down right fork 🍴
+801	38	[36mhas put down left fork 🍴
+801	38	is sleeping 🌙
+801	39	[36mhas taken right fork 🍴
+801	4	[36mhas put down right fork 🍴
+801	4	[36mhas put down left fork 🍴
+801	4	is sleeping 🌙
+801	5	[36mhas taken right fork 🍴
+801	5	[36mhas taken left fork 🍴
+801	5	[95mis eating 🍝
+801	43	[36mhas taken right fork 🍴
+801	43	[36mhas taken left fork 🍴
+801	43	[95mis eating 🍝
+801	40	[36mhas put down right fork 🍴
+801	40	[36mhas put down left fork 🍴
+801	39	[36mhas taken left fork 🍴
+801	39	[95mis eating 🍝
+801	40	is sleeping 🌙
+801	36	[36mhas put down right fork 🍴
+801	36	[36mhas put down left fork 🍴
+801	35	[36mhas taken left fork 🍴
+801	35	[95mis eating 🍝
+801	36	is sleeping 🌙
+801	32	[36mhas put down right fork 🍴
+801	32	[36mhas put down left fork 🍴
+801	32	is sleeping 🌙
+801	33	[36mhas taken right fork 🍴
+801	33	[36mhas taken left fork 🍴
+801	33	[95mis eating 🍝
+801	1	[36mhas taken right fork 🍴
+801	1	[36mhas taken left fork 🍴
+801	1	[95mis eating 🍝
+801	21	[36mhas taken right fork 🍴
+801	21	[36mhas taken left fork 🍴
+801	21	[95mis eating 🍝
+801	41	[36mhas taken right fork 🍴
+801	41	[36mhas taken left fork 🍴
+801	41	[95mis eating 🍝
+801	31	[36mhas taken right fork 🍴
+801	31	[36mhas taken left fork 🍴
+801	31	[95mis eating 🍝
+801	15	[36mhas taken right fork 🍴
+801	15	[36mhas taken left fork 🍴
+801	15	[95mis eating 🍝
+801	37	[36mhas taken right fork 🍴
+801	37	[36mhas taken left fork 🍴
+801	37	[95mis eating 🍝
+801	11	[36mhas taken right fork 🍴
+801	11	[36mhas taken left fork 🍴
+801	11	[95mis eating 🍝
+801	9	[36mhas taken right fork 🍴
+801	29	[36mhas taken right fork 🍴
+801	9	[36mhas taken left fork 🍴
+801	23	[36mhas taken right fork 🍴
+801	29	[36mhas taken left fork 🍴
+801	23	[36mhas taken left fork 🍴
+801	23	[95mis eating 🍝
+801	29	[95mis eating 🍝
+801	9	[95mis eating 🍝
+801	3	[36mhas taken right fork 🍴
+801	3	[36mhas taken left fork 🍴
+801	3	[95mis eating 🍝
+801	13	[36mhas taken right fork 🍴
+801	13	[36mhas taken left fork 🍴
+801	13	[95mis eating 🍝
+901	18	[34mis thinking 💭
+901	20	[34mis thinking 💭
+901	47	[34mis thinking 💭
+901	6	[34mis thinking 💭
+901	16	[34mis thinking 💭
+901	4	[34mis thinking 💭
+901	40	[34mis thinking 💭
+901	2	[34mis thinking 💭
+901	34	[34mis thinking 💭
+901	36	[34mis thinking 💭
+901	14	[34mis thinking 💭
+901	42	[34mis thinking 💭
+901	26	[34mis thinking 💭
+901	53	[34mis thinking 💭
+901	28	[34mis thinking 💭
+901	49	[34mis thinking 💭
+901	24	[34mis thinking 💭
+901	12	[34mis thinking 💭
+901	38	[34mis thinking 💭
+901	25	[36mhas put down right fork 🍴
+901	25	[36mhas put down left fork 🍴
+901	8	[34mis thinking 💭
+901	10	[34mis thinking 💭
+901	41	[36mhas put down right fork 🍴
+901	41	[36mhas put down left fork 🍴
+901	32	[34mis thinking 💭
+901	17	[36mhas put down right fork 🍴
+901	51	[34mis thinking 💭
+901	17	[36mhas put down left fork 🍴
+901	30	[34mis thinking 💭
+901	17	is sleeping 🌙
+901	50	[36mhas put down right fork 🍴
+901	50	[36mhas put down left fork 🍴
+901	44	[34mis thinking 💭
+901	41	is sleeping 🌙
+901	15	[36mhas put down right fork 🍴
+901	15	[36mhas put down left fork 🍴
+901	22	[34mis thinking 💭
+901	25	is sleeping 🌙
+901	3	[36mhas put down right fork 🍴
+901	3	[36mhas put down left fork 🍴
+901	50	is sleeping 🌙
+901	15	is sleeping 🌙
+901	39	[36mhas put down right fork 🍴
+901	39	[36mhas put down left fork 🍴
+901	39	is sleeping 🌙
+901	3	is sleeping 🌙
+901	7	[36mhas put down right fork 🍴
+901	7	[36mhas put down left fork 🍴
+901	7	is sleeping 🌙
+901	5	[36mhas put down right fork 🍴
+901	5	[36mhas put down left fork 🍴
+901	5	is sleeping 🌙
+901	8	[36mhas taken right fork 🍴
+901	31	[36mhas put down right fork 🍴
+901	31	[36mhas put down left fork 🍴
+901	31	is sleeping 🌙
+901	18	[36mhas taken right fork 🍴
+901	27	[36mhas put down right fork 🍴
+901	27	[36mhas put down left fork 🍴
+901	27	is sleeping 🌙
+901	13	[36mhas put down right fork 🍴
+901	13	[36mhas put down left fork 🍴
+901	13	is sleeping 🌙
+901	6	[36mhas taken right fork 🍴
+901	6	[36mhas taken left fork 🍴
+901	6	[95mis eating 🍝
+901	52	[36mhas put down right fork 🍴
+901	52	[36mhas put down left fork 🍴
+901	52	is sleeping 🌙
+901	29	[36mhas put down right fork 🍴
+901	29	[36mhas put down left fork 🍴
+901	29	is sleeping 🌙
+901	9	[36mhas put down right fork 🍴
+901	9	[36mhas put down left fork 🍴
+901	9	is sleeping 🌙
+901	8	[36mhas taken left fork 🍴
+901	8	[95mis eating 🍝
+901	23	[36mhas put down right fork 🍴
+901	23	[36mhas put down left fork 🍴
+901	23	is sleeping 🌙
+901	21	[36mhas put down right fork 🍴
+901	16	[36mhas taken right fork 🍴
+901	16	[36mhas taken left fork 🍴
+901	16	[95mis eating 🍝
+901	10	[36mhas taken right fork 🍴
+901	21	[36mhas put down left fork 🍴
+901	21	is sleeping 🌙
+901	19	[36mhas put down right fork 🍴
+901	18	[36mhas taken left fork 🍴
+901	18	[95mis eating 🍝
+901	20	[36mhas taken right fork 🍴
+901	20	[36mhas taken left fork 🍴
+901	20	[95mis eating 🍝
+901	19	[36mhas put down left fork 🍴
+901	19	is sleeping 🌙
+901	4	[36mhas taken right fork 🍴
+901	4	[36mhas taken left fork 🍴
+901	4	[95mis eating 🍝
+901	48	[36mhas put down right fork 🍴
+901	48	[36mhas put down left fork 🍴
+901	48	is sleeping 🌙
+901	33	[36mhas put down right fork 🍴
+901	33	[36mhas put down left fork 🍴
+901	33	is sleeping 🌙
+901	40	[36mhas taken right fork 🍴
+901	40	[36mhas taken left fork 🍴
+901	40	[95mis eating 🍝
+901	11	[36mhas put down right fork 🍴
+901	11	[36mhas put down left fork 🍴
+901	10	[36mhas taken left fork 🍴
+901	10	[95mis eating 🍝
+901	11	is sleeping 🌙
+901	46	[36mhas put down right fork 🍴
+901	46	[36mhas put down left fork 🍴
+901	45	[36mhas taken left fork 🍴
+901	45	[95mis eating 🍝
+901	46	is sleeping 🌙
+901	47	[36mhas taken right fork 🍴
+901	47	[36mhas taken left fork 🍴
+901	47	[95mis eating 🍝
+901	37	[36mhas put down right fork 🍴
+901	37	[36mhas put down left fork 🍴
+901	37	is sleeping 🌙
+901	34	[36mhas taken right fork 🍴
+901	14	[36mhas taken right fork 🍴
+901	14	[36mhas taken left fork 🍴
+901	14	[95mis eating 🍝
+901	42	[36mhas taken right fork 🍴
+901	26	[36mhas taken right fork 🍴
+901	26	[36mhas taken left fork 🍴
+901	26	[95mis eating 🍝
+901	53	[36mhas taken right fork 🍴
+901	28	[36mhas taken right fork 🍴
+901	28	[36mhas taken left fork 🍴
+901	28	[95mis eating 🍝
+901	49	[36mhas taken right fork 🍴
+901	49	[36mhas taken left fork 🍴
+901	49	[95mis eating 🍝
+901	24	[36mhas taken right fork 🍴
+901	24	[36mhas taken left fork 🍴
+901	24	[95mis eating 🍝
+901	12	[36mhas taken right fork 🍴
+901	12	[36mhas taken left fork 🍴
+901	38	[36mhas taken right fork 🍴
+901	38	[36mhas taken left fork 🍴
+901	38	[95mis eating 🍝
+901	43	[36mhas put down right fork 🍴
+901	32	[36mhas taken right fork 🍴
+901	43	[36mhas put down left fork 🍴
+901	32	[36mhas taken left fork 🍴
+901	44	[36mhas taken right fork 🍴
+901	32	[95mis eating 🍝
+901	43	is sleeping 🌙
+901	1	[36mhas put down right fork 🍴
+901	12	[95mis eating 🍝
+901	42	[36mhas taken left fork 🍴
+901	42	[95mis eating 🍝
+901	1	[36mhas put down left fork 🍴
+901	53	[36mhas taken left fork 🍴
+901	53	[95mis eating 🍝
+901	2	[36mhas taken right fork 🍴
+901	22	[36mhas taken right fork 🍴
+901	22	[36mhas taken left fork 🍴
+901	2	[36mhas taken left fork 🍴
+901	1	is sleeping 🌙
+901	2	[95mis eating 🍝
+901	22	[95mis eating 🍝
+901	35	[36mhas put down right fork 🍴
+901	34	[36mhas taken left fork 🍴
+901	34	[95mis eating 🍝
+901	36	[36mhas taken right fork 🍴
+901	36	[36mhas taken left fork 🍴
+901	36	[95mis eating 🍝
+901	35	[36mhas put down left fork 🍴
+901	35	is sleeping 🌙
+901	30	[36mhas taken right fork 🍴
+901	30	[36mhas taken left fork 🍴
+901	30	[95mis eating 🍝
+901	51	[36mhas taken right fork 🍴
+901	51	[36mhas taken left fork 🍴
+901	51	[95mis eating 🍝
+1001	27	[34mis thinking 💭
+1001	9	[34mis thinking 💭
+1001	1	[34mis thinking 💭
+1001	23	[34mis thinking 💭
+1001	18	[36mhas put down right fork 🍴
+1001	18	[36mhas put down left fork 🍴
+1001	41	[34mis thinking 💭
+1001	52	[34mis thinking 💭
+1001	8	[36mhas put down right fork 🍴
+1001	8	[36mhas put down left fork 🍴
+1001	18	is sleeping 🌙
+1001	8	is sleeping 🌙
+1001	25	[34mis thinking 💭
+1001	32	[36mhas put down right fork 🍴
+1001	32	[36mhas put down left fork 🍴
+1001	15	[34mis thinking 💭
+1001	32	is sleeping 🌙
+1001	40	[36mhas put down right fork 🍴
+1001	40	[36mhas put down left fork 🍴
+1001	40	is sleeping 🌙
+1001	9	[36mhas taken right fork 🍴
+1001	46	[34mis thinking 💭
+1001	42	[36mhas put down right fork 🍴
+1001	42	[36mhas put down left fork 🍴
+1001	42	is sleeping 🌙
+1001	26	[36mhas put down right fork 🍴
+1001	26	[36mhas put down left fork 🍴
+1001	26	is sleeping 🌙
+1001	12	[36mhas put down right fork 🍴
+1001	12	[36mhas put down left fork 🍴
+1001	27	[36mhas taken right fork 🍴
+1001	12	is sleeping 🌙
+1001	21	[34mis thinking 💭
+1001	41	[36mhas taken right fork 🍴
+1001	41	[36mhas taken left fork 🍴
+1001	41	[95mis eating 🍝
+1001	51	[36mhas put down right fork 🍴
+1001	31	[34mis thinking 💭
+1001	52	[36mhas taken right fork 🍴
+1001	19	[34mis thinking 💭
+1001	13	[34mis thinking 💭
+1001	29	[34mis thinking 💭
+1001	39	[34mis thinking 💭
+1001	33	[34mis thinking 💭
+1001	48	[34mis thinking 💭
+1001	11	[34mis thinking 💭
+1001	37	[34mis thinking 💭
+1001	51	[36mhas put down left fork 🍴
+1001	50	[34mis thinking 💭
+1001	7	[34mis thinking 💭
+1001	43	[34mis thinking 💭
+1001	3	[34mis thinking 💭
+1001	5	[34mis thinking 💭
+1001	34	[36mhas put down right fork 🍴
+1001	35	[34mis thinking 💭
+1001	34	[36mhas put down left fork 🍴
+1001	34	is sleeping 🌙
+1001	51	is sleeping 🌙
+1001	6	[36mhas put down right fork 🍴
+1001	17	[34mis thinking 💭
+1001	6	[36mhas put down left fork 🍴
+1001	6	is sleeping 🌙
+1001	35	[36mhas taken right fork 🍴
+1001	16	[36mhas put down right fork 🍴
+1001	16	[36mhas put down left fork 🍴
+1001	16	is sleeping 🌙
+1001	19	[36mhas taken right fork 🍴
+1001	13	[36mhas taken right fork 🍴
+1001	22	[36mhas put down right fork 🍴
+1001	22	[36mhas put down left fork 🍴
+1001	23	[36mhas taken right fork 🍴
+1001	30	[36mhas put down right fork 🍴
+1001	22	is sleeping 🌙
+1001	31	[36mhas taken right fork 🍴
+1001	31	[36mhas taken left fork 🍴
+1001	31	[95mis eating 🍝
+1001	30	[36mhas put down left fork 🍴
+1001	30	is sleeping 🌙
+1001	2	[36mhas put down right fork 🍴
+1001	2	[36mhas put down left fork 🍴
+1001	2	is sleeping 🌙
+1001	14	[36mhas put down right fork 🍴
+1001	13	[36mhas taken left fork 🍴
+1001	13	[95mis eating 🍝
+1001	14	[36mhas put down left fork 🍴
+1001	15	[36mhas taken right fork 🍴
+1001	15	[36mhas taken left fork 🍴
+1001	15	[95mis eating 🍝
+1001	53	[36mhas put down right fork 🍴
+1001	14	is sleeping 🌙
+1001	53	[36mhas put down left fork 🍴
+1001	1	[36mhas taken right fork 🍴
+1001	1	[36mhas taken left fork 🍴
+1001	1	[95mis eating 🍝
+1001	53	is sleeping 🌙
+1001	24	[36mhas put down right fork 🍴
+1001	52	[36mhas taken left fork 🍴
+1001	23	[36mhas taken left fork 🍴
+1001	52	[95mis eating 🍝
+1001	25	[36mhas taken right fork 🍴
+1001	25	[36mhas taken left fork 🍴
+1001	25	[95mis eating 🍝
+1001	23	[95mis eating 🍝
+1001	24	[36mhas put down left fork 🍴
+1001	24	is sleeping 🌙
+1001	38	[36mhas put down right fork 🍴
+1001	38	[36mhas put down left fork 🍴
+1001	38	is sleeping 🌙
+1001	39	[36mhas taken right fork 🍴
+1001	39	[36mhas taken left fork 🍴
+1001	39	[95mis eating 🍝
+1001	47	[36mhas put down right fork 🍴
+1001	47	[36mhas put down left fork 🍴
+1001	47	is sleeping 🌙
+1001	20	[36mhas put down right fork 🍴
+1001	19	[36mhas taken left fork 🍴
+1001	21	[36mhas taken right fork 🍴
+1001	20	[36mhas put down left fork 🍴
+1001	21	[36mhas taken left fork 🍴
+1001	21	[95mis eating 🍝
+1001	19	[95mis eating 🍝
+1001	33	[36mhas taken right fork 🍴
+1001	33	[36mhas taken left fork 🍴
+1001	33	[95mis eating 🍝
+1001	20	is sleeping 🌙
+1001	45	[36mhas put down right fork 🍴
+1001	44	[36mhas taken left fork 🍴
+1001	44	[95mis eating 🍝
+1001	46	[36mhas taken right fork 🍴
+1001	46	[36mhas taken left fork 🍴
+1001	46	[95mis eating 🍝
+1001	45	[36mhas put down left fork 🍴
+1001	45	is sleeping 🌙
+1001	48	[36mhas taken right fork 🍴
+1001	28	[36mhas put down right fork 🍴
+1001	27	[36mhas taken left fork 🍴
+1001	29	[36mhas taken right fork 🍴
+1001	29	[36mhas taken left fork 🍴
+1001	29	[95mis eating 🍝
+1001	27	[95mis eating 🍝
+1001	28	[36mhas put down left fork 🍴
+1001	28	is sleeping 🌙
+1001	10	[36mhas put down right fork 🍴
+1001	9	[36mhas taken left fork 🍴
+1001	11	[36mhas taken right fork 🍴
+1001	10	[36mhas put down left fork 🍴
+1001	11	[36mhas taken left fork 🍴
+1001	11	[95mis eating 🍝
+1001	10	is sleeping 🌙
+1001	36	[36mhas put down right fork 🍴
+1001	36	[36mhas put down left fork 🍴
+1001	9	[95mis eating 🍝
+1001	36	is sleeping 🌙
+1001	37	[36mhas taken right fork 🍴
+1001	37	[36mhas taken left fork 🍴
+1001	49	[36mhas put down right fork 🍴
+1001	49	[36mhas put down left fork 🍴
+1001	48	[36mhas taken left fork 🍴
+1001	49	is sleeping 🌙
+1001	35	[36mhas taken left fork 🍴
+1001	35	[95mis eating 🍝
+1001	48	[95mis eating 🍝
+1001	50	[36mhas taken right fork 🍴
+1001	50	[36mhas taken left fork 🍴
+1001	50	[95mis eating 🍝
+1001	7	[36mhas taken right fork 🍴
+1001	7	[36mhas taken left fork 🍴
+1001	7	[95mis eating 🍝
+1001	37	[95mis eating 🍝
+1001	43	[36mhas taken right fork 🍴
+1001	4	[36mhas put down right fork 🍴
+1001	4	[36mhas put down left fork 🍴
+1001	4	is sleeping 🌙
+1001	3	[36mhas taken right fork 🍴
+1001	3	[36mhas taken left fork 🍴
+1001	3	[95mis eating 🍝
+1001	5	[36mhas taken right fork 🍴
+1001	5	[36mhas taken left fork 🍴
+1001	5	[95mis eating 🍝
+1001	17	[36mhas taken right fork 🍴
+1001	17	[36mhas taken left fork 🍴
+1001	17	[95mis eating 🍝
+1101	40	[34mis thinking 💭
+1101	12	[34mis thinking 💭
+1101	6	[34mis thinking 💭
+1101	36	[34mis thinking 💭
+1101	8	[34mis thinking 💭
+1101	2	[34mis thinking 💭
+1101	14	[34mis thinking 💭
+1101	45	[34mis thinking 💭
+1101	47	[34mis thinking 💭
+1101	42	[34mis thinking 💭
+1101	18	[34mis thinking 💭
+1101	24	[34mis thinking 💭
+1101	49	[34mis thinking 💭
+1101	26	[34mis thinking 💭
+1101	15	[36mhas put down right fork 🍴
+1101	15	[36mhas put down left fork 🍴
+1101	10	[34mis thinking 💭
+1101	20	[34mis thinking 💭
+1101	44	[36mhas put down right fork 🍴
+1101	43	[36mhas taken left fork 🍴
+1101	30	[34mis thinking 💭
+1101	43	[95mis eating 🍝
+1101	16	[34mis thinking 💭
+1101	32	[34mis thinking 💭
+1101	4	[34mis thinking 💭
+1101	28	[34mis thinking 💭
+1101	38	[34mis thinking 💭
+1101	53	[34mis thinking 💭
+1101	15	is sleeping 🌙
+1101	44	[36mhas put down left fork 🍴
+1101	44	is sleeping 🌙
+1101	22	[34mis thinking 💭
+1101	52	[36mhas put down right fork 🍴
+1101	52	[36mhas put down left fork 🍴
+1101	52	is sleeping 🌙
+1101	51	[34mis thinking 💭
+1101	34	[34mis thinking 💭
+1101	3	[36mhas put down right fork 🍴
+1101	3	[36mhas put down left fork 🍴
+1101	3	is sleeping 🌙
+1101	29	[36mhas put down right fork 🍴
+1101	29	[36mhas put down left fork 🍴
+1101	29	is sleeping 🌙
+1101	35	[36mhas put down right fork 🍴
+1101	35	[36mhas put down left fork 🍴
+1101	35	is sleeping 🌙
+1101	13	[36mhas put down right fork 🍴
+1101	13	[36mhas put down left fork 🍴
+1101	13	is sleeping 🌙
+1101	9	[36mhas put down right fork 🍴
+1101	9	[36mhas put down left fork 🍴
+1101	9	is sleeping 🌙
+1101	10	[36mhas taken right fork 🍴
+1101	1	[36mhas put down right fork 🍴
+1101	1	[36mhas put down left fork 🍴
+1101	1	is sleeping 🌙
+1101	33	[36mhas put down right fork 🍴
+1101	33	[36mhas put down left fork 🍴
+1101	33	is sleeping 🌙
+1101	46	[36mhas put down right fork 🍴
+1101	46	[36mhas put down left fork 🍴
+1101	46	is sleeping 🌙
+1101	17	[36mhas put down right fork 🍴
+1101	17	[36mhas put down left fork 🍴
+1101	17	is sleeping 🌙
+1101	48	[36mhas put down right fork 🍴
+1101	48	[36mhas put down left fork 🍴
+1101	49	[36mhas taken right fork 🍴
+1101	48	is sleeping 🌙
+1101	36	[36mhas taken right fork 🍴
+1101	7	[36mhas put down right fork 🍴
+1101	7	[36mhas put down left fork 🍴
+1101	7	is sleeping 🌙
+1101	8	[36mhas taken right fork 🍴
+1101	8	[36mhas taken left fork 🍴
+1101	8	[95mis eating 🍝
+1101	31	[36mhas put down right fork 🍴
+1101	31	[36mhas put down left fork 🍴
+1101	31	is sleeping 🌙
+1101	23	[36mhas put down right fork 🍴
+1101	23	[36mhas put down left fork 🍴
+1101	23	is sleeping 🌙
+1101	24	[36mhas taken right fork 🍴
+1101	21	[36mhas put down right fork 🍴
+1101	21	[36mhas put down left fork 🍴
+1101	21	is sleeping 🌙
+1101	2	[36mhas taken right fork 🍴
+1101	2	[36mhas taken left fork 🍴
+1101	2	[95mis eating 🍝
+1101	14	[36mhas taken right fork 🍴
+1101	14	[36mhas taken left fork 🍴
+1101	14	[95mis eating 🍝
+1101	19	[36mhas put down right fork 🍴
+1101	19	[36mhas put down left fork 🍴
+1101	19	is sleeping 🌙
+1101	5	[36mhas put down right fork 🍴
+1101	5	[36mhas put down left fork 🍴
+1101	6	[36mhas taken right fork 🍴
+1101	6	[36mhas taken left fork 🍴
+1101	6	[95mis eating 🍝
+1101	5	is sleeping 🌙
+1101	11	[36mhas put down right fork 🍴
+1101	10	[36mhas taken left fork 🍴
+1101	10	[95mis eating 🍝
+1101	11	[36mhas put down left fork 🍴
+1101	12	[36mhas taken right fork 🍴
+1101	41	[36mhas put down right fork 🍴
+1101	41	[36mhas put down left fork 🍴
+1101	12	[36mhas taken left fork 🍴
+1101	12	[95mis eating 🍝
+1101	11	is sleeping 🌙
+1101	41	is sleeping 🌙
+1101	27	[36mhas put down right fork 🍴
+1101	27	[36mhas put down left fork 🍴
+1101	27	is sleeping 🌙
+1101	45	[36mhas taken right fork 🍴
+1101	45	[36mhas taken left fork 🍴
+1101	45	[95mis eating 🍝
+1101	47	[36mhas taken right fork 🍴
+1101	47	[36mhas taken left fork 🍴
+1101	47	[95mis eating 🍝
+1101	42	[36mhas taken right fork 🍴
+1101	18	[36mhas taken right fork 🍴
+1101	18	[36mhas taken left fork 🍴
+1101	18	[95mis eating 🍝
+1101	50	[36mhas put down right fork 🍴
+1101	49	[36mhas taken left fork 🍴
+1101	49	[95mis eating 🍝
+1101	51	[36mhas taken right fork 🍴
+1101	51	[36mhas taken left fork 🍴
+1101	51	[95mis eating 🍝
+1101	50	[36mhas put down left fork 🍴
+1101	50	is sleeping 🌙
+1101	25	[36mhas put down right fork 🍴
+1101	24	[36mhas taken left fork 🍴
+1101	26	[36mhas taken right fork 🍴
+1101	26	[36mhas taken left fork 🍴
+1101	26	[95mis eating 🍝
+1101	25	[36mhas put down left fork 🍴
+1101	25	is sleeping 🌙
+1101	24	[95mis eating 🍝
+1101	20	[36mhas taken right fork 🍴
+1101	20	[36mhas taken left fork 🍴
+1101	20	[95mis eating 🍝
+1101	30	[36mhas taken right fork 🍴
+1101	30	[36mhas taken left fork 🍴
+1101	28	[36mhas taken right fork 🍴
+1101	28	[36mhas taken left fork 🍴
+1101	28	[95mis eating 🍝
+1101	53	[36mhas taken right fork 🍴
+1101	53	[36mhas taken left fork 🍴
+1101	53	[95mis eating 🍝
+1101	16	[36mhas taken right fork 🍴
+1101	30	[95mis eating 🍝
+1101	16	[36mhas taken left fork 🍴
+1101	16	[95mis eating 🍝
+1101	39	[36mhas put down right fork 🍴
+1101	4	[36mhas taken right fork 🍴
+1101	4	[36mhas taken left fork 🍴
+1101	4	[95mis eating 🍝
+1101	40	[36mhas taken right fork 🍴
+1101	40	[36mhas taken left fork 🍴
+1101	40	[95mis eating 🍝
+1101	39	[36mhas put down left fork 🍴
+1101	39	is sleeping 🌙
+1101	22	[36mhas taken right fork 🍴
+1101	22	[36mhas taken left fork 🍴
+1101	22	[95mis eating 🍝
+1101	34	[36mhas taken right fork 🍴
+1101	34	[36mhas taken left fork 🍴
+1101	34	[95mis eating 🍝
+1101	37	[36mhas put down right fork 🍴
+1101	37	[36mhas put down left fork 🍴
+1101	36	[36mhas taken left fork 🍴
+1101	36	[95mis eating 🍝
+1101	38	[36mhas taken right fork 🍴
+1101	38	[36mhas taken left fork 🍴
+1101	38	[95mis eating 🍝
+1101	32	[36mhas taken right fork 🍴
+1101	32	[36mhas taken left fork 🍴
+1101	32	[95mis eating 🍝
+1101	37	is sleeping 🌙
+1201	19	[34mis thinking 💭
+1201	7	[34mis thinking 💭
+1201	44	[34mis thinking 💭
+1201	23	[34mis thinking 💭
+1201	9	[34mis thinking 💭
+1201	21	[34mis thinking 💭
+1201	48	[34mis thinking 💭
+1201	17	[34mis thinking 💭
+1201	35	[34mis thinking 💭
+1201	5	[34mis thinking 💭
+1201	41	[34mis thinking 💭
+1201	31	[34mis thinking 💭
+1201	3	[34mis thinking 💭
+1201	50	[34mis thinking 💭
+1201	13	[34mis thinking 💭
+1201	1	[34mis thinking 💭
+1201	15	[34mis thinking 💭
+1201	37	[34mis thinking 💭
+1201	27	[34mis thinking 💭
+1201	25	[34mis thinking 💭
+1201	46	[34mis thinking 💭
+1201	11	[34mis thinking 💭
+1201	39	[34mis thinking 💭
+1201	52	[34mis thinking 💭
+1201	20	[36mhas put down right fork 🍴
+1201	20	[36mhas put down left fork 🍴
+1201	29	[34mis thinking 💭
+1201	33	[34mis thinking 💭
+1201	10	[36mhas put down right fork 🍴
+1201	10	[36mhas put down left fork 🍴
+1201	10	is sleeping 🌙
+1201	20	is sleeping 🌙
+1201	2	[36mhas put down right fork 🍴
+1201	2	[36mhas put down left fork 🍴
+1201	2	is sleeping 🌙
+1201	40	[36mhas put down right fork 🍴
+1201	40	[36mhas put down left fork 🍴
+1201	40	is sleeping 🌙
+1201	45	[36mhas put down right fork 🍴
+1201	45	[36mhas put down left fork 🍴
+1201	45	is sleeping 🌙
+1201	22	[36mhas put down right fork 🍴
+1201	22	[36mhas put down left fork 🍴
+1201	22	is sleeping 🌙
+1201	8	[36mhas put down right fork 🍴
+1201	8	[36mhas put down left fork 🍴
+1201	8	is sleeping 🌙
+1201	38	[36mhas put down right fork 🍴
+1201	38	[36mhas put down left fork 🍴
+1201	38	is sleeping 🌙
+1201	47	[36mhas put down right fork 🍴
+1201	47	[36mhas put down left fork 🍴
+1201	47	is sleeping 🌙
+1201	53	[36mhas put down right fork 🍴
+1201	53	[36mhas put down left fork 🍴
+1201	53	is sleeping 🌙
+1201	14	[36mhas put down right fork 🍴
+1201	14	[36mhas put down left fork 🍴
+1201	14	is sleeping 🌙
+1201	4	[36mhas put down right fork 🍴
+1201	4	[36mhas put down left fork 🍴
+1201	4	is sleeping 🌙
+1201	18	[36mhas put down right fork 🍴
+1201	18	[36mhas put down left fork 🍴
+1201	18	is sleeping 🌙
+1201	16	[36mhas put down right fork 🍴
+1201	16	[36mhas put down left fork 🍴
+1201	16	is sleeping 🌙
+1201	49	[36mhas put down right fork 🍴
+1201	49	[36mhas put down left fork 🍴
+1201	49	is sleeping 🌙
+1201	36	[36mhas put down right fork 🍴
+1201	36	[36mhas put down left fork 🍴
+1201	36	is sleeping 🌙
+1201	26	[36mhas put down right fork 🍴
+1201	26	[36mhas put down left fork 🍴
+1201	26	is sleeping 🌙
+1201	48	[36mhas taken right fork 🍴
+1201	48	[36mhas taken left fork 🍴
+1201	48	[95mis eating 🍝
+1201	30	[36mhas put down right fork 🍴
+1201	30	[36mhas put down left fork 🍴
+1201	30	is sleeping 🌙
+1201	28	[36mhas put down right fork 🍴
+1201	28	[36mhas put down left fork 🍴
+1201	28	is sleeping 🌙
+1201	32	[36mhas put down right fork 🍴
+1201	32	[36mhas put down left fork 🍴
+1201	32	is sleeping 🌙
+1201	6	[36mhas put down right fork 🍴
+1201	6	[36mhas put down left fork 🍴
+1201	6	is sleeping 🌙
+1201	24	[36mhas put down right fork 🍴
+1201	24	[36mhas put down left fork 🍴
+1201	24	is sleeping 🌙
+1201	34	[36mhas put down right fork 🍴
+1201	34	[36mhas put down left fork 🍴
+1201	34	is sleeping 🌙
+1201	51	[36mhas put down right fork 🍴
+1201	51	[36mhas put down left fork 🍴
+1201	51	is sleeping 🌙
+1201	43	[36mhas put down right fork 🍴
+1201	42	[36mhas taken left fork 🍴
+1201	42	[95mis eating 🍝
+1201	43	[36mhas put down left fork 🍴
+1201	44	[36mhas taken right fork 🍴
+1201	44	[36mhas taken left fork 🍴
+1201	44	[95mis eating 🍝
+1201	43	is sleeping 🌙
+1201	50	[36mhas taken right fork 🍴
+1201	50	[36mhas taken left fork 🍴
+1201	50	[95mis eating 🍝
+1201	46	[36mhas taken right fork 🍴
+1201	46	[36mhas taken left fork 🍴
+1201	46	[95mis eating 🍝
+1201	52	[36mhas taken right fork 🍴
+1201	52	[36mhas taken left fork 🍴
+1201	52	[95mis eating 🍝
+1201	12	[36mhas put down right fork 🍴
+1201	12	[36mhas put down left fork 🍴
+1201	12	is sleeping 🌙
+1301	43	[34mis thinking 💭
+1301	26	[34mis thinking 💭
+1301	51	[34mis thinking 💭
+1301	49	[34mis thinking 💭
+1301	14	[34mis thinking 💭
+1301	4	[34mis thinking 💭
+1301	18	[34mis thinking 💭
+1301	53	[34mis thinking 💭
+1301	34	[34mis thinking 💭
+1301	16	[34mis thinking 💭
+1301	12	[34mis thinking 💭
+1301	28	[34mis thinking 💭
+1301	20	[34mis thinking 💭
+1301	24	[34mis thinking 💭
+1301	47	[34mis thinking 💭
+1301	36	[34mis thinking 💭
+1301	45	[34mis thinking 💭
+1301	32	[34mis thinking 💭
+1301	22	[34mis thinking 💭
+1301	8	[34mis thinking 💭
+1301	38	[34mis thinking 💭
+1301	30	[34mis thinking 💭
+1301	46	[36mhas put down right fork 🍴
+1301	46	[36mhas put down left fork 🍴
+1301	10	[34mis thinking 💭
+1301	2	[34mis thinking 💭
+1301	6	[34mis thinking 💭
+1301	40	[34mis thinking 💭
+1301	46	is sleeping 🌙
+1301	44	[36mhas put down right fork 🍴
+1301	44	[36mhas put down left fork 🍴
+1301	44	is sleeping 🌙
+1301	42	[36mhas put down right fork 🍴
+1301	42	[36mhas put down left fork 🍴
+1301	42	is sleeping 🌙
+1301	50	[36mhas put down right fork 🍴
+1301	50	[36mhas put down left fork 🍴
+1301	50	is sleeping 🌙
+1301	48	[36mhas put down right fork 🍴
+1301	48	[36mhas put down left fork 🍴
+1301	48	is sleeping 🌙
+1301	52	[36mhas put down right fork 🍴
+1301	52	[36mhas put down left fork 🍴
+1301	52	is sleeping 🌙
 [32m 🍴🍝 ALL PHILOSOPHERS FINISHED EATING 🍝🍴
