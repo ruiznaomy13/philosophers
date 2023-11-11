@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 20:38:28 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/11 12:20:09 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/11 13:14:19 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,11 +44,11 @@ int	ft_eat(t_philo *philo)
 	ft_usleep(philo->table->t_eat);
 	pthread_mutex_lock(&philo->table->food_count);
 	philo->n_food++;
-	pthread_mutex_unlock(&philo->table->forks[philo->r_fork]);
-	print_msj(philo, CYAN"⬇ right fork 🍴");
-	pthread_mutex_unlock(&philo->table->forks[philo->l_fork]);
-	print_msj(philo, CYAN"⬇ left fork 🍴");
 	pthread_mutex_unlock(&philo->table->food_count);
+	pthread_mutex_unlock(&philo->table->forks[philo->r_fork]);
+	print_msj(philo, BLUE"⬇ right fork 🍴");
+	pthread_mutex_unlock(&philo->table->forks[philo->l_fork]);
+	print_msj(philo, BLUE"⬇ left fork 🍴");
 	return (0);
 }
 

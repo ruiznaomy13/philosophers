@@ -6,7 +6,7 @@
 /*   By: ncastell <ncastell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 20:34:53 by ncastell          #+#    #+#             */
-/*   Updated: 2023/11/11 12:21:08 by ncastell         ###   ########.fr       */
+/*   Updated: 2023/11/11 13:13:52 by ncastell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ void	print_msj(t_philo *philo, char *msj)
 {
 	pthread_mutex_lock(&philo->table->msj);
 	if (!check_if_stop(philo->table))
-		printf(WHITE"%ld\t%d\t%s\n", diff_time(philo->table->t_start, \
+		printf(WHITE"[%ld]\t%d\t%s\n", diff_time(philo->table->t_start, \
 		get_time()), philo->id, msj);
 	pthread_mutex_unlock(&philo->table->msj);
 }
