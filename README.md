@@ -23,7 +23,7 @@ The program is run from the command line with the following syntax:
 
 ```bash
 ./program [NUM_PHILOSOPHERS] [TIME_TO_EAT] [TIME_TO_THINK] [TIME_TO_SLEEP] [NUM_MEALS_OPTIONAL]
-```bash
+```
 
 **NUM_PHILOSOPHERS**: Number of philosophers at the table (also the number of forks).
 **TIME_TO_EAT**: Time in milliseconds a philosopher can go without eating before dying.
