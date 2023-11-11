@@ -22,7 +22,8 @@ In this representation, each philosopher is modeled as a thread, and each fork a
 The program is run from the command line with the following syntax:
 
 ```bash
-./program [NUM_PHILOSOPHERS] [TIME_TO_EAT] [TIME_TO_THINK] [TIME_TO_SLEEP] [NUM_MEALS_OPTIONAL]```
+./program [NUM_PHILOSOPHERS] [TIME_TO_EAT] [TIME_TO_THINK] [TIME_TO_SLEEP] [NUM_MEALS_OPTIONAL]
+```bash
 
 **NUM_PHILOSOPHERS**: Number of philosophers at the table (also the number of forks).
 **TIME_TO_EAT**: Time in milliseconds a philosopher can go without eating before dying.
@@ -50,7 +51,7 @@ En esta representación, cada filósofo está modelado como un hilo y cada tened
 El programa se ejecuta desde la línea de comandos con la siguiente sintaxis:
 
 ```bash
-./program [NUM_FILOSOFOS] [TIEMPO_COMER] [TIEMPO_PENSAR] [TIEMPO_DORMIR] [NUM_COMIDAS_OPCIONAL]```
+./program [NUM_FILOSOFOS] [TIEMPO_COMER] [TIEMPO_PENSAR] [TIEMPO_DORMIR] [NUM_COMIDAS_OPCIONAL]
 
 **NUM_FILOSOFOS**: Número de filósofos en la mesa (también el número de tenedores).
 **TIEMPO_COMER**: Tiempo en milisegundos que un filósofo puede pasar sin comer antes de morir.
