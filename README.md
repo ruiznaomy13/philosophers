@@ -9,7 +9,7 @@ This program simulates the classic Dining Philosophers problem in a round table 
 
 In this representation, each philosopher is modeled as a thread, and each fork as a shared resource.
 - A philosopher can only eat if they have two adjacent free forks 🍴
-- After eating, the philosopher spends some time thinking before attempting to eat again ⏱
+- After sleeping, the philosopher spends some time thinking before attempting to eat again ⏱
 - If a philosopher doesn't eat within a specified time interval, they die ❌
 
 ## System Requirements
@@ -50,7 +50,7 @@ Este programa simula el problema clásico de los filósofos comensales en una me
 
 En esta representación, cada filósofo está modelado como un hilo y cada tenedor como un recurso compartido.  
 - Un filósofo solo puede comer si tiene dos tenedores adyacentes libres 🍴  
-- Después de comer, el filósofo pasa un tiempo pensando antes de intentar comer nuevamente ⏱  
+- Después de dormir, el filósofo pasa un tiempo pensando antes de intentar comer nuevamente ⏱  
 - Si un filósofo no come en un intervalo de tiempo especificado, muere ❌
   
 ## Requisitos del Sistema
