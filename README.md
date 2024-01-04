@@ -37,7 +37,7 @@ The program is run from the command line with the following syntax:
 **TIME_TO_SLEEP**: Time in milliseconds a philosopher spends sleeping after thinking.  
 
 
-**NUM_MEALS_OPTIONAL** (optional): Number of meals each philosopher will have before the program stops. If not provided, the program will run indefinitely.  
+**NUM_MEALS_OPTIONAL** (optional): Number of meals each philosopher will have before the program stops. If not provided, the program will run indefinitely.    
 
 
 
